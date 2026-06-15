@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #0a0a0a;
+  --color-bg-section: #111111;
+  --color-bg-card: #161616;
+  --color-cyan: #00b4cc;
+  --color-cyan-light: #00d4ee;
+  --color-cyan-muted: #007a8a;
+  --color-white: #ffffff;
+  --color-text-muted: #aaaaaa;
+  --color-border: #1e1e1e;
+  --color-accent: #0f3a45;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-white);
+}
+
+::selection {
+  background-color: var(--color-cyan);
+  color: var(--color-bg);
+}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  background: var(--color-cyan);
+  color: var(--color-bg);
+  padding: 0.75rem 1.5rem;
+  z-index: 9999;
+  border-radius: 0 0 0.5rem 0.5rem;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+.focus-visible-ring:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 4px;
+}
+
+.eyebrow {
+  font-family: var(--font-montserrat);
+  color: var(--color-cyan-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.text-cyan-gradient {
+  background: linear-gradient(135deg, var(--color-cyan-light), var(--color-cyan));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-number {
+  font-weight: 900;
+  color: var(--color-white);
+  opacity: 0.03;
+  user-select: none;
+  pointer-events: none;
+  line-height: 0.8;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background-color: var(--color-cyan);
+  color: var(--color-bg);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 1rem 2rem;
+  font-family: var(--font-inter);
+  font-size: 0.875rem;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.04);
+  background-color: var(--color-cyan-light);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: 1px solid var(--color-cyan);
+  color: var(--color-white);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 1rem 2rem;
+  font-family: var(--font-inter);
+  font-size: 0.875rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-cyan);
+  color: var(--color-bg);
+}
+
+.placeholder-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #1a1a1a;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  font-family: var(--font-inter);
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 1rem;
+}
