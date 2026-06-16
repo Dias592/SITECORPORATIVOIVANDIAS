@@ -36,7 +36,7 @@ export default function PlaceholderPhoto({
           src={src}
           alt={label}
           fill
-          className="object-cover"
+          className="object-cover object-top"
           priority={priority}
           sizes="(max-width: 768px) 100vw, 50vw"
         />
