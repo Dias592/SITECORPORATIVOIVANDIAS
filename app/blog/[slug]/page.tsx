@@ -96,5 +96,3 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     </>
   );
 }
-
-export const dynamicParams = false;
