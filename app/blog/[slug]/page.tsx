@@ -8,7 +8,7 @@ import PlaceholderPhoto from '@/components/PlaceholderPhoto';
 import SchemaOrg from '@/components/SchemaOrg';
 import { generateMeta } from '@/lib/metadata';
 import { getArticleSchema } from '@/lib/schemas';
-import { getBlogSlugs, getPostBySlug } from '@/lib/blog';
+import { getBlogSlugs, getPostBySlug, posts } from '@/lib/blog';
 import { getServiceBySlug } from '@/lib/services';
 import Link from 'next/link';
 
@@ -32,6 +32,12 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   if (!post) notFound();
 
   const relatedService = getServiceBySlug(post.relatedServiceSlug);
+  const currentIndex = posts.findIndex((p) => p.slug === post.slug);
+  const relatedPosts = [
+    posts[(currentIndex + 1) % posts.length],
+    posts[(currentIndex + 2) % posts.length],
+    posts[(currentIndex + 3) % posts.length],
+  ];
 
   return (
     <>
@@ -91,6 +97,32 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
       </article>
 
       <FAQSection eyebrow="Dúvidas" title="Perguntas frequentes" faqs={post.faqs} />
+
+      <section className="bg-bg-section py-16 md:py-20">
+        <div className="mx-auto max-w-4xl px-6 md:px-12">
+          <span className="eyebrow">Continue lendo</span>
+          <h2 className="mt-4 font-heading text-2xl font-bold uppercase text-white md:text-3xl">
+            Artigos relacionados
+          </h2>
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
+            {relatedPosts.map((p) => (
+              <Link
+                key={p.slug}
+                href={`/blog/${p.slug}`}
+                className="rounded-xl border border-border-dark bg-bg-card p-5 transition hover:border-cyan"
+              >
+                <p className="font-body text-xs uppercase tracking-wide text-cyan-muted">
+                  {new Date(p.date).toLocaleDateString('pt-BR', { month: 'long', year: 'numeric' })}
+                </p>
+                <p className="mt-2 font-heading text-sm font-bold uppercase text-white leading-snug">
+                  {p.title}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <CTASection />
       <Footer />
     </>

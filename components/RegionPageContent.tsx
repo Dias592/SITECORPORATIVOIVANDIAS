@@ -6,9 +6,10 @@ import Footer from './Footer';
 import PlaceholderPhoto from './PlaceholderPhoto';
 import SchemaOrg from './SchemaOrg';
 import { getLocalBusinessForRegionSchema } from '@/lib/schemas';
-import { Region } from '@/lib/regions';
+import { Region, regions } from '@/lib/regions';
 
 export default function RegionPageContent({ region }: { region: Region }) {
+  const otherRegions = regions.filter((r) => r.slug !== region.slug);
   return (
     <>
       <SchemaOrg
@@ -55,6 +56,28 @@ export default function RegionPageContent({ region }: { region: Region }) {
       </section>
 
       <FAQSection eyebrow="Dúvidas" title={`Perguntas frequentes - ${region.cityName}`} faqs={region.faqs} />
+
+      <section className="bg-bg py-16 md:py-20">
+        <div className="mx-auto max-w-7xl px-6 md:px-12">
+          <span className="eyebrow">Outras regiões atendidas</span>
+          <h2 className="mt-4 font-heading text-2xl font-bold uppercase text-white md:text-3xl">
+            Fotografia corporativa em toda a Grande SP
+          </h2>
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+            {otherRegions.map((r) => (
+              <Link
+                key={r.slug}
+                href={`/${r.slug}`}
+                className="rounded-xl border border-border-dark bg-bg-card p-5 transition hover:border-cyan"
+              >
+                <p className="font-heading text-sm font-bold uppercase text-cyan">{r.cityName}</p>
+                <p className="mt-1 font-body text-xs text-text-muted">{r.relatedServiceName}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <CTASection />
       <Footer />
     </>
