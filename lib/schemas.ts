@@ -133,15 +133,35 @@ export function getArticleSchema(options: {
   dateModified?: string;
   image?: string;
 }) {
+  const published = options.datePublished.includes('T')
+    ? options.datePublished
+    : `${options.datePublished}T00:00:00-03:00`;
+  const modified = options.dateModified
+    ? options.dateModified.includes('T')
+      ? options.dateModified
+      : `${options.dateModified}T00:00:00-03:00`
+    : published;
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: options.title,
     description: options.description,
-    author: { '@id': `${SITE.url}/#person` },
-    publisher: { '@id': `${SITE.url}/#business` },
-    datePublished: options.datePublished,
-    dateModified: options.dateModified ?? options.datePublished,
+    author: {
+      '@type': 'Person',
+      name: 'Ivan Dias',
+      url: SITE.url,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: SITE.name,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${SITE.url}/images/og-ivan-dias-fotografo.jpg`,
+      },
+    },
+    datePublished: published,
+    dateModified: modified,
     image: options.image ?? `${SITE.url}/images/og-ivan-dias-fotografo.jpg`,
     mainEntityOfPage: {
       '@type': 'WebPage',

@@ -7,7 +7,7 @@ import { generateMeta } from '@/lib/metadata';
 import { getAllPosts } from '@/lib/blog';
 
 export const metadata: Metadata = generateMeta({
-  title: 'Blog | Fotografia Corporativa em São Paulo',
+  title: 'Blog | Fotografia Corporativa SP',
   description:
     'Artigos sobre fotografia corporativa, retratos executivos, fotos para LinkedIn e cobertura de eventos empresariais em São Paulo, ABCD e Grande SP.',
   path: '/blog',

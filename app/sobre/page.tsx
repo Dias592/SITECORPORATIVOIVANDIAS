@@ -8,7 +8,7 @@ import { generateMeta } from '@/lib/metadata';
 import { getPersonSchema } from '@/lib/schemas';
 
 export const metadata: Metadata = generateMeta({
-  title: 'Sobre Ivan Dias | Fotógrafo Corporativo em São Paulo',
+  title: 'Sobre | Fotógrafo Corporativo SP',
   description:
     'Conheça Ivan Dias, fotógrafo corporativo especializado em retratos executivos, fotos para LinkedIn e cobertura de eventos empresariais em São Paulo e Grande SP.',
   path: '/sobre',

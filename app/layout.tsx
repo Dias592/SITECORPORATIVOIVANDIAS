@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
     default: 'Fotógrafo Corporativo São Paulo | Retratos Executivos e Eventos | Ivan Dias',
-    template: '%s | Ivan Dias Fotógrafo Corporativo',
+    template: '%s | Ivan Dias',
   },
   description: SITE.description,
   authors: [{ name: 'Ivan Dias' }],

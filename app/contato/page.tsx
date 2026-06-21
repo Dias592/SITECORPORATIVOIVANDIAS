@@ -8,7 +8,7 @@ import { getLocalBusinessSchema } from '@/lib/schemas';
 import { SITE } from '@/lib/site';
 
 export const metadata: Metadata = generateMeta({
-  title: 'Contato | Fale com Ivan Dias - Fotógrafo Corporativo',
+  title: 'Contato | Fotógrafo Corporativo SP',
   description:
     'Solicite orçamento personalizado para fotografia corporativa em São Paulo, ABCD e Grande SP. Resposta em até 24h por WhatsApp, e-mail ou formulário.',
   path: '/contato',

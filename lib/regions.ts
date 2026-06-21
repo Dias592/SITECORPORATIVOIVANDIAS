@@ -15,7 +15,7 @@ export const regions: Region[] = [
     slug: 'retrato-corporativo-abc',
     cityName: 'ABCD Paulista',
     h1: 'Retrato Corporativo no ABCD Paulista',
-    metaTitle: 'Fotógrafo Corporativo ABC Paulista | Retrato Corporativo | Ivan Dias',
+    metaTitle: 'Fotógrafo Corporativo ABC Paulista',
     metaDescription:
       'Fotógrafo corporativo no ABC Paulista: retratos executivos, fotos para LinkedIn e ensaios de equipe em Santo André, São Bernardo, São Caetano e Diadema.',
     relatedServiceSlug: 'retrato-corporativo',
@@ -50,7 +50,7 @@ export const regions: Region[] = [
     slug: 'retrato-corporativo-santo-andre',
     cityName: 'Santo André',
     h1: 'Retrato Corporativo em Santo André',
-    metaTitle: 'Retrato Corporativo Santo André | Fotógrafo Corporativo | Ivan Dias',
+    metaTitle: 'Retrato Corporativo Santo André',
     metaDescription:
       'Retrato corporativo em Santo André: ensaios executivos, fotos para LinkedIn e equipes para clínicas, escritórios e indústrias. Estúdio móvel disponível.',
     relatedServiceSlug: 'retrato-corporativo',
@@ -85,7 +85,7 @@ export const regions: Region[] = [
     slug: 'fotografo-eventos-sao-caetano',
     cityName: 'São Caetano do Sul',
     h1: 'Fotógrafo de Eventos em São Caetano do Sul',
-    metaTitle: 'Fotógrafo de Eventos Corporativos São Caetano do Sul | Ivan Dias',
+    metaTitle: 'Fotógrafo Eventos São Caetano do Sul',
     metaDescription:
       'Fotógrafo de eventos corporativos em São Caetano do Sul: congressos, feiras, lançamentos e workshops com cobertura profissional e entrega organizada.',
     relatedServiceSlug: 'eventos-corporativos',
@@ -120,7 +120,7 @@ export const regions: Region[] = [
     slug: 'fotos-linkedin-sao-bernardo',
     cityName: 'São Bernardo do Campo',
     h1: 'Fotos para LinkedIn em São Bernardo do Campo',
-    metaTitle: 'Fotos para LinkedIn São Bernardo do Campo | Retrato Profissional | Ivan Dias',
+    metaTitle: 'Fotos LinkedIn São Bernardo do Campo',
     metaDescription:
       'Fotos profissionais para LinkedIn em São Bernardo do Campo: sessão rápida, direção de poses e entrega em 48h para engenheiros, gestores e executivos.',
     relatedServiceSlug: 'fotos-linkedin',
@@ -155,7 +155,7 @@ export const regions: Region[] = [
     slug: 'fotografia-corporativa-osasco',
     cityName: 'Osasco',
     h1: 'Fotografia Corporativa em Osasco',
-    metaTitle: 'Fotografia Corporativa Osasco | Fotógrafo Corporativo | Ivan Dias',
+    metaTitle: 'Fotografia Corporativa Osasco',
     metaDescription:
       'Fotografia corporativa em Osasco: retratos executivos, fotos para LinkedIn e ensaios de equipe para startups, fintechs e centros logísticos.',
     relatedServiceSlug: 'retrato-corporativo',
@@ -190,7 +190,7 @@ export const regions: Region[] = [
     slug: 'fotografo-empresas-guarulhos',
     cityName: 'Guarulhos',
     h1: 'Fotógrafo Corporativo em Guarulhos',
-    metaTitle: 'Fotógrafo Corporativo Guarulhos | Retratos para Empresas | Ivan Dias',
+    metaTitle: 'Fotógrafo Corporativo Guarulhos',
     metaDescription:
       'Fotógrafo corporativo em Guarulhos: retratos executivos, fotos de equipe e cobertura de eventos para empresas de logística, distribuição e indústria.',
     relatedServiceSlug: 'retrato-corporativo',

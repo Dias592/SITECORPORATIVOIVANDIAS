@@ -6,7 +6,7 @@ import PortfolioGallery from '@/components/PortfolioGallery';
 import { generateMeta } from '@/lib/metadata';
 
 export const metadata: Metadata = generateMeta({
-  title: 'Portfólio | Retratos Executivos, LinkedIn e Eventos Corporativos',
+  title: 'Portfólio | Fotografia Corporativa SP',
   description:
     'Portfólio de fotografia corporativa de Ivan Dias: retratos executivos, fotos para LinkedIn, cobertura de eventos corporativos e fotos de equipes em São Paulo.',
   path: '/portfolio',

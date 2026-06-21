@@ -47,6 +47,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           description: post.metaDescription,
           slug: post.slug,
           datePublished: post.date,
+          image: post.image,
         })}
       />
 

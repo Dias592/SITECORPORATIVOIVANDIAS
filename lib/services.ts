@@ -33,7 +33,7 @@ export const services: Service[] = [
     title: 'Retrato Corporativo',
     cardDescription:
       'Retratos individuais, de equipes e in-company com direção completa de poses e entrega ágil.',
-    metaTitle: 'Retrato Corporativo São Paulo | Ensaio Executivo e de Equipes | Ivan Dias',
+    metaTitle: 'Retrato Corporativo SP | Ensaio Executivo e Equipes',
     metaDescription:
       'Retratos corporativos em São Paulo: executivos, equipes e fotos profissionais. Estúdio móvel disponível. Direção completa de poses. Entrega em até 5 dias.',
     h1: 'Retrato Corporativo em São Paulo',
@@ -131,7 +131,7 @@ export const services: Service[] = [
     title: 'Fotos para LinkedIn',
     cardDescription:
       'Sessão rápida e objetiva para uma foto de perfil que transmite autoridade e credibilidade.',
-    metaTitle: 'Fotos para LinkedIn São Paulo | Retrato Profissional SP | Ivan Dias',
+    metaTitle: 'Fotos para LinkedIn SP | Retrato Profissional',
     metaDescription:
       'Fotos para LinkedIn em São Paulo que transmitem autoridade e credibilidade. Sessão rápida, direção de poses, entrega em 48h. Atendimento em SP e ABCD.',
     h1: 'Fotos para LinkedIn em São Paulo',
@@ -212,7 +212,7 @@ export const services: Service[] = [
     title: 'Eventos Corporativos',
     cardDescription:
       'Cobertura fotográfica completa de congressos, convenções, feiras e treinamentos empresariais.',
-    metaTitle: 'Fotógrafo de Eventos Corporativos SP | Congressos, Feiras e Convenções | Ivan Dias',
+    metaTitle: 'Eventos Corporativos SP | Congressos e Feiras',
     metaDescription:
       'Cobertura fotográfica de eventos corporativos em São Paulo e ABCD: congressos, convenções, workshops, feiras e lançamentos. Equipe e entrega profissional.',
     h1: 'Fotógrafo de Eventos Corporativos em São Paulo',
