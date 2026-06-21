@@ -14,12 +14,17 @@ import SchemaOrg from '@/components/SchemaOrg';
 import { generateMeta } from '@/lib/metadata';
 import { getHowToHireSchema } from '@/lib/schemas';
 
-export const metadata: Metadata = generateMeta({
-  title: 'Fotógrafo Corporativo São Paulo | Retratos Executivos e Eventos | Ivan Dias',
-  description:
-    'Fotógrafo corporativo em São Paulo, ABCD e Grande SP. Retratos executivos, fotos para LinkedIn e cobertura de eventos empresariais. Orçamento em 24h.',
-  path: '/',
-});
+export const metadata: Metadata = {
+  ...generateMeta({
+    title: 'Fotógrafo Corporativo SP | Retratos e Eventos',
+    description:
+      'Fotógrafo corporativo em São Paulo, ABCD e Grande SP. Retratos executivos, fotos para LinkedIn e cobertura de eventos empresariais. Orçamento em 24h.',
+    path: '/',
+  }),
+  title: {
+    absolute: 'Fotógrafo Corporativo SP | Retratos e Eventos | Ivan Dias',
+  },
+};
 
 const HOME_FAQS = [
   {
