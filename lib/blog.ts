@@ -13,6 +13,7 @@ export type BlogPost = {
   faqs: BlogFAQ[];
   relatedServiceSlug: string;
   image: string;
+  relatedSlugs?: string[];
 };
 
 /**

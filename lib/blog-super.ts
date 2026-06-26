@@ -11,6 +11,7 @@ export const superPosts: BlogPost[] = [
       'Entenda como a fotografia corporativa profissional pode transformar a comunicação visual da sua empresa em São Paulo, do briefing à entrega do banco de imagens completo.',
     image: '/images/portfolio/equipe-industrial-sao-paulo-ivan-dias-01.jpg',
     relatedServiceSlug: 'retrato-corporativo',
+    relatedSlugs: ['foto-empresarial-banco-imagens-institucional', 'ensaio-corporativo-como-se-preparar', 'como-escolher-fotografo-corporativo-sp'],
     content: [
       'A fotografia corporativa é um investimento estratégico que vai muito além de simplesmente registrar rostos. Toda empresa em São Paulo que deseja se posicionar com autoridade no mercado precisa de um banco de imagens próprio, construído com direção profissional e alinhado à identidade visual da marca. Imagens corporativas bem produzidas comunicam valores, cultura organizacional e profissionalismo em cada ponto de contato — do site institucional ao perfil do LinkedIn dos executivos. Quando uma empresa depende exclusivamente de fotos de banco de imagens genéricas, ela perde a oportunidade de criar conexão real com seus clientes e parceiros comerciais.',
 
@@ -85,6 +86,7 @@ export const superPosts: BlogPost[] = [
       'Descubra como uma foto profissional para LinkedIn pode transformar sua presença digital e gerar mais oportunidades de negócios em São Paulo.',
     image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.jpg',
     relatedServiceSlug: 'fotos-linkedin',
+    relatedSlugs: ['ensaio-corporativo-como-se-preparar', 'fotos-corporativas-femininas-masculinas', 'quanto-custa-retrato-corporativo-sp-2026'],
     content: [
       'A foto de perfil do LinkedIn é, muitas vezes, o primeiro ponto de contato entre você e um potencial cliente, recrutador ou parceiro de negócios. Em São Paulo, onde o mercado é altamente competitivo e visual, ter uma foto profissional de alta qualidade no LinkedIn não é vaidade — é estratégia de posicionamento. Pesquisas da própria plataforma mostram que perfis com foto profissional recebem até 21 vezes mais visualizações e 36 vezes mais mensagens do que perfis sem foto ou com fotos amadoras. Investir em uma imagem que transmita competência e acessibilidade é investir diretamente em oportunidades.',
 
@@ -159,6 +161,7 @@ export const superPosts: BlogPost[] = [
       'Saiba tudo sobre o ensaio corporativo em São Paulo: preparação, poses, duração e como agendar para você ou para a equipe da sua empresa.',
     image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.jpg',
     relatedServiceSlug: 'retrato-corporativo',
+    relatedSlugs: ['foto-para-linkedin-perfil-profissional', 'fotos-corporativas-femininas-masculinas', 'fotografo-corporativo-moema-sp'],
     content: [
       'O ensaio corporativo é uma sessão fotográfica planejada para produzir imagens profissionais de executivos, colaboradores e equipes. Diferente de uma foto rápida de documento, o ensaio corporativo envolve direção de poses, iluminação profissional, curadoria de looks e um briefing prévio que garante que o resultado final esteja alinhado com os objetivos de comunicação do profissional ou da empresa. Em São Paulo, onde a competitividade é alta e a imagem profissional pesa nas decisões de negócio, o ensaio corporativo se tornou uma ferramenta essencial de posicionamento.',
 
@@ -237,6 +240,7 @@ export const superPosts: BlogPost[] = [
       'Conheça as melhores práticas de estilo e direção para fotos corporativas femininas e masculinas, com foco em transmitir autoridade e competência profissional.',
     image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-02.jpg',
     relatedServiceSlug: 'retrato-corporativo',
+    relatedSlugs: ['ensaio-corporativo-como-se-preparar', 'foto-para-linkedin-perfil-profissional', 'como-escolher-fotografo-corporativo-sp'],
     content: [
       'A direção de fotos corporativas exige atenção individualizada ao perfil de cada pessoa. Homens e mulheres respondem de formas diferentes à câmera, não por limitações, mas por nuances de comunicação visual que, quando bem trabalhadas, potencializam a mensagem de autoridade e competência. Um fotógrafo corporativo experiente em São Paulo sabe adaptar a direção de poses, a iluminação e as recomendações de vestuário para valorizar cada pessoa dentro do contexto profissional, independentemente de gênero, idade ou área de atuação.',
 
@@ -317,6 +321,7 @@ export const superPosts: BlogPost[] = [
       'Guia completo de cobertura fotográfica para eventos corporativos em São Paulo, com atendimento especializado para empresas e agências de eventos.',
     image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.jpg',
     relatedServiceSlug: 'eventos-corporativos',
+    relatedSlugs: ['foto-empresarial-banco-imagens-institucional', 'fotografia-corporativa-empresas-sao-paulo', 'quanto-custa-retrato-corporativo-sp-2026'],
     content: [
       'A cobertura fotográfica de eventos corporativos é um dos serviços mais estratégicos que uma empresa ou agência de eventos pode contratar em São Paulo. As imagens produzidas durante um evento não servem apenas como registro — elas se tornam conteúdo para redes sociais, relatórios de resultados, materiais de relacionamento com patrocinadores e peças de comunicação interna. Um evento corporativo bem fotografado gera meses de conteúdo visual, multiplicando o retorno sobre o investimento na produção do próprio evento.',
 
@@ -397,6 +402,7 @@ export const superPosts: BlogPost[] = [
       'Guia completo para profissionais de RH e marketing que precisam montar ou atualizar o banco de imagens institucional da empresa em São Paulo.',
     image: '/images/hero/fotografo-corporativo-sao-paulo-ivan-dias.jpg',
     relatedServiceSlug: 'retrato-corporativo',
+    relatedSlugs: ['fotografia-corporativa-empresas-sao-paulo', 'cobertura-eventos-corporativos-sao-paulo', 'fotografo-corporativo-moema-sp'],
     content: [
       'Ter um banco de imagens institucional próprio é uma das decisões mais estratégicas que os departamentos de RH e marketing de uma empresa podem tomar. Imagens autênticas da equipe, dos ambientes de trabalho e dos processos internos comunicam credibilidade de uma forma que nenhuma foto de banco de imagens genérico consegue replicar. Em São Paulo, onde empresas disputam talentos e clientes em um mercado saturado, a foto empresarial profissional se tornou um diferencial competitivo mensurável em taxas de conversão, engajamento e atração de candidatos.',
 

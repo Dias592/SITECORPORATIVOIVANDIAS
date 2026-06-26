@@ -8,7 +8,7 @@ import PlaceholderPhoto from '@/components/PlaceholderPhoto';
 import SchemaOrg from '@/components/SchemaOrg';
 import { generateMeta } from '@/lib/metadata';
 import { getArticleSchema } from '@/lib/schemas';
-import { getBlogSlugs, getPostBySlug, posts } from '@/lib/blog';
+import { getBlogSlugs, getPostBySlug, getAllPosts } from '@/lib/blog';
 import { getServiceBySlug } from '@/lib/services';
 import Link from 'next/link';
 
@@ -32,12 +32,13 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   if (!post) notFound();
 
   const relatedService = getServiceBySlug(post.relatedServiceSlug);
-  const currentIndex = posts.findIndex((p) => p.slug === post.slug);
-  const relatedPosts = [
-    posts[(currentIndex + 1) % posts.length],
-    posts[(currentIndex + 2) % posts.length],
-    posts[(currentIndex + 3) % posts.length],
-  ];
+  const all = getAllPosts();
+  const relatedPosts = post.relatedSlugs
+    ? post.relatedSlugs.map((s) => getPostBySlug(s)).filter((p): p is NonNullable<typeof p> => !!p)
+    : (() => {
+        const idx = all.findIndex((p) => p.slug === post.slug);
+        return [all[(idx + 1) % all.length], all[(idx + 2) % all.length], all[(idx + 3) % all.length]];
+      })();
 
   return (
     <>
