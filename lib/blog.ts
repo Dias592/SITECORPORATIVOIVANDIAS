@@ -2189,14 +2189,18 @@ export const posts: BlogPost[] = [
   },
 ];
 
+import { superPosts } from './blog-super';
+
+const allPosts = [...posts, ...superPosts];
+
 export function getAllPosts(): BlogPost[] {
-  return [...posts].sort((a, b) => (a.date < b.date ? 1 : -1));
+  return [...allPosts].sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
-  return posts.find((post) => post.slug === slug);
+  return allPosts.find((post) => post.slug === slug);
 }
 
 export function getBlogSlugs(): string[] {
-  return posts.map((post) => post.slug);
+  return allPosts.map((post) => post.slug);
 }

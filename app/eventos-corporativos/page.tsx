@@ -9,6 +9,7 @@ import { generateMeta } from '@/lib/metadata';
 import { getServiceSchema } from '@/lib/schemas';
 import { getServiceBySlug } from '@/lib/services';
 import { DEFAULT_WHATSAPP_MESSAGE, whatsappUrl } from '@/lib/site';
+import Link from 'next/link';
 
 const service = getServiceBySlug('eventos-corporativos')!;
 
@@ -97,6 +98,19 @@ export default function EventosCorporativosPage() {
       </section>
 
       <FAQSection eyebrow="Dúvidas" title="Perguntas frequentes sobre cobertura de eventos corporativos" faqs={service.faqs} />
+
+      <section className="bg-bg-section py-16 md:py-20">
+        <div className="mx-auto max-w-4xl px-6 md:px-12">
+          <span className="eyebrow">Leia também</span>
+          <h2 className="mt-4 font-heading text-2xl font-bold uppercase text-white md:text-3xl">Artigos sobre eventos corporativos</h2>
+          <div className="mt-8">
+            <Link href="/blog/cobertura-eventos-corporativos-sao-paulo" className="block rounded-xl border border-border-dark bg-bg-card p-5 transition hover:border-cyan">
+              <p className="font-heading text-sm font-bold uppercase text-cyan leading-snug">Cobertura de Eventos Corporativos em SP: Guia para Empresas e Agências</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <CTASection />
       <Footer />
     </>

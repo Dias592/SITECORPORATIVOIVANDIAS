@@ -9,6 +9,14 @@ import { generateMeta } from '@/lib/metadata';
 import { getServiceSchema, getHowToHireSchema } from '@/lib/schemas';
 import { getServiceBySlug } from '@/lib/services';
 import { DEFAULT_WHATSAPP_MESSAGE, whatsappUrl } from '@/lib/site';
+import Link from 'next/link';
+
+const RELATED_ARTICLES = [
+  { slug: 'fotografia-corporativa-empresas-sao-paulo', title: 'Fotografia Corporativa para Empresas em SP' },
+  { slug: 'ensaio-corporativo-como-se-preparar', title: 'Ensaio Corporativo: Como se Preparar' },
+  { slug: 'fotos-corporativas-femininas-masculinas', title: 'Fotos Corporativas Femininas e Masculinas' },
+  { slug: 'foto-empresarial-banco-imagens-institucional', title: 'Banco de Imagens Institucional para Empresas' },
+];
 
 const service = getServiceBySlug('retrato-corporativo')!;
 
@@ -119,6 +127,21 @@ export default function RetratoCorporativoPage() {
       </section>
 
       <FAQSection eyebrow="Dúvidas" title="Perguntas frequentes sobre retrato corporativo" faqs={service.faqs} />
+
+      <section className="bg-bg-section py-16 md:py-20">
+        <div className="mx-auto max-w-4xl px-6 md:px-12">
+          <span className="eyebrow">Leia também</span>
+          <h2 className="mt-4 font-heading text-2xl font-bold uppercase text-white md:text-3xl">Artigos sobre retrato corporativo</h2>
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+            {RELATED_ARTICLES.map((a) => (
+              <Link key={a.slug} href={`/blog/${a.slug}`} className="rounded-xl border border-border-dark bg-bg-card p-5 transition hover:border-cyan">
+                <p className="font-heading text-sm font-bold uppercase text-cyan leading-snug">{a.title}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <CTASection />
       <Footer />
     </>
