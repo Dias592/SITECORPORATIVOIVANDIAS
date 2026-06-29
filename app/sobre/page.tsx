@@ -62,7 +62,7 @@ export default function SobrePage() {
             <div className="overflow-hidden rounded-2xl">
               <PlaceholderPhoto
                 label="Ivan Dias - fotógrafo corporativo São Paulo"
-                src="/images/sobre/ivan-dias-fotografo-corporativo-sao-paulo.jpg"
+                src="/images/sobre/ivan-dias-fotografo-corporativo-sao-paulo.webp"
                 natural
                 priority
               />

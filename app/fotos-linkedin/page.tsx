@@ -51,7 +51,7 @@ export default function FotosLinkedinPage() {
               </a>
             </div>
             <div className="overflow-hidden rounded-2xl">
-              <PlaceholderPhoto label="Foto de perfil profissional para LinkedIn - São Paulo - Ivan Dias" src="/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.jpg" natural />
+              <PlaceholderPhoto label="Foto de perfil profissional para LinkedIn - São Paulo - Ivan Dias" src="/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.webp" natural />
             </div>
           </div>
         </div>

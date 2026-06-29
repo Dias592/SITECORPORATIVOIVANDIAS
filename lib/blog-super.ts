@@ -9,7 +9,7 @@ export const superPosts: BlogPost[] = [
     date: '2026-06-26',
     excerpt:
       'Entenda como a fotografia corporativa profissional pode transformar a comunicação visual da sua empresa em São Paulo, do briefing à entrega do banco de imagens completo.',
-    image: '/images/portfolio/equipe-industrial-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/portfolio/equipe-industrial-sao-paulo-ivan-dias-01.webp',
     relatedServiceSlug: 'retrato-corporativo',
     relatedSlugs: ['foto-empresarial-banco-imagens-institucional', 'ensaio-corporativo-como-se-preparar', 'como-escolher-fotografo-corporativo-sp'],
     content: [
@@ -84,7 +84,7 @@ export const superPosts: BlogPost[] = [
     date: '2026-06-26',
     excerpt:
       'Descubra como uma foto profissional para LinkedIn pode transformar sua presença digital e gerar mais oportunidades de negócios em São Paulo.',
-    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.webp',
     relatedServiceSlug: 'fotos-linkedin',
     relatedSlugs: ['ensaio-corporativo-como-se-preparar', 'fotos-corporativas-femininas-masculinas', 'quanto-custa-retrato-corporativo-sp-2026'],
     content: [
@@ -159,7 +159,7 @@ export const superPosts: BlogPost[] = [
     date: '2026-06-26',
     excerpt:
       'Saiba tudo sobre o ensaio corporativo em São Paulo: preparação, poses, duração e como agendar para você ou para a equipe da sua empresa.',
-    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.webp',
     relatedServiceSlug: 'retrato-corporativo',
     relatedSlugs: ['foto-para-linkedin-perfil-profissional', 'fotos-corporativas-femininas-masculinas', 'fotografo-corporativo-moema-sp'],
     content: [
@@ -238,7 +238,7 @@ export const superPosts: BlogPost[] = [
     date: '2026-06-26',
     excerpt:
       'Conheça as melhores práticas de estilo e direção para fotos corporativas femininas e masculinas, com foco em transmitir autoridade e competência profissional.',
-    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-02.webp',
     relatedServiceSlug: 'retrato-corporativo',
     relatedSlugs: ['ensaio-corporativo-como-se-preparar', 'foto-para-linkedin-perfil-profissional', 'como-escolher-fotografo-corporativo-sp'],
     content: [
@@ -319,7 +319,7 @@ export const superPosts: BlogPost[] = [
     date: '2026-06-26',
     excerpt:
       'Guia completo de cobertura fotográfica para eventos corporativos em São Paulo, com atendimento especializado para empresas e agências de eventos.',
-    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.webp',
     relatedServiceSlug: 'eventos-corporativos',
     relatedSlugs: ['foto-empresarial-banco-imagens-institucional', 'fotografia-corporativa-empresas-sao-paulo', 'quanto-custa-retrato-corporativo-sp-2026'],
     content: [
@@ -400,7 +400,7 @@ export const superPosts: BlogPost[] = [
     date: '2026-06-26',
     excerpt:
       'Guia completo para profissionais de RH e marketing que precisam montar ou atualizar o banco de imagens institucional da empresa em São Paulo.',
-    image: '/images/hero/fotografo-corporativo-sao-paulo-ivan-dias.jpg',
+    image: '/images/hero/fotografo-corporativo-sao-paulo-ivan-dias.webp',
     relatedServiceSlug: 'retrato-corporativo',
     relatedSlugs: ['fotografia-corporativa-empresas-sao-paulo', 'cobertura-eventos-corporativos-sao-paulo', 'fotografo-corporativo-moema-sp'],
     content: [

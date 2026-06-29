@@ -51,11 +51,16 @@ export default function HeroSection() {
       </motion.div>
 
       <div className="relative min-h-[50vh] md:min-h-0">
-        <PlaceholderPhoto
-          label="Retrato corporativo executivo São Paulo - Ivan Dias Fotógrafo"
-          className="absolute inset-0 aspect-auto"
-          src="/images/hero/fotografo-corporativo-sao-paulo-ivan-dias.jpg"
-          priority
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/hero/fotografo-corporativo-sao-paulo-ivan-dias-1080w.webp"
+          srcSet="/images/hero/fotografo-corporativo-sao-paulo-ivan-dias-640w.webp 640w, /images/hero/fotografo-corporativo-sao-paulo-ivan-dias-1080w.webp 1080w, /images/hero/fotografo-corporativo-sao-paulo-ivan-dias-1920w.webp 1920w"
+          sizes="(max-width: 768px) 100vw, 50vw"
+          alt="Retrato corporativo executivo São Paulo - Ivan Dias Fotógrafo"
+          width={1920}
+          height={2400}
+          fetchPriority="high"
+          className="absolute inset-0 h-full w-full object-cover object-top"
         />
       </div>
     </section>

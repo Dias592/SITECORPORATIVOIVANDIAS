@@ -58,7 +58,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/hero/fotografo-corporativo-sao-paulo-ivan-dias.jpg',
+    image: '/images/hero/fotografo-corporativo-sao-paulo-ivan-dias.webp',
   },
   {
     slug: 'quanto-custa-retrato-corporativo-sp-2026',
@@ -96,7 +96,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'fotografo-corporativo-moema-sp',
@@ -133,7 +133,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
-    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'retrato-corporativo-o-que-e-por-que-empresa-precisa',
@@ -169,7 +169,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-03.jpg',
+    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-03.webp',
   },
   {
     slug: 'foto-linkedin-guia-completo-profissionais-sp',
@@ -205,7 +205,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
-    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'como-se-preparar-ensaio-corporativo-guia',
@@ -241,7 +241,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'o-que-vestir-fotos-corporativas-looks-por-segmento',
@@ -278,7 +278,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'foto-perfil-linkedin-define-sua-carreira',
@@ -314,7 +314,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
-    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'fotografia-corporativa-equipes-padronizar-imagem-empresa',
@@ -350,7 +350,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/eventos-corporativos/evento-premiacao-corporativo-sao-paulo-ivan-dias-03.jpg',
+    image: '/images/eventos-corporativos/evento-premiacao-corporativo-sao-paulo-ivan-dias-03.webp',
   },
   {
     slug: 'retratos-corporativos-modernos-tendencias-2026-sp',
@@ -386,7 +386,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-04.jpg',
+    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-04.webp',
   },
   {
     slug: 'estudio-movel-fotografia-corporativa-o-que-e',
@@ -422,7 +422,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-05.jpg',
+    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-05.webp',
   },
   {
     slug: 'fotografia-eventos-corporativos-como-escolher-profissional',
@@ -458,7 +458,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'eventos-corporativos',
-    image: '/images/portfolio/equipe-industrial-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/portfolio/equipe-industrial-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'diferenca-retrato-executivo-foto-de-perfil',
@@ -494,7 +494,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/portfolio/industria-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/portfolio/industria-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'fotografo-para-medicos-sp',
@@ -530,7 +530,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/portfolio/colaborador-industria-sao-paulo-ivan-dias-03.jpg',
+    image: '/images/portfolio/colaborador-industria-sao-paulo-ivan-dias-03.webp',
   },
   {
     slug: 'fotografia-corporativa-advogados-autoridade-visual',
@@ -566,7 +566,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/portfolio/galpao-industrial-sao-paulo-ivan-dias-04.jpg',
+    image: '/images/portfolio/galpao-industrial-sao-paulo-ivan-dias-04.webp',
   },
   {
     slug: 'como-montar-banco-imagens-corporativo',
@@ -602,7 +602,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/og-ivan-dias-fotografo.jpg',
+    image: '/images/og-ivan-dias-fotografo.webp',
   },
   {
     slug: 'antes-depois-impacto-foto-corporativa-linkedin',
@@ -638,7 +638,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
-    image: '/images/hero/fotografo-corporativo-sao-paulo-ivan-dias.jpg',
+    image: '/images/hero/fotografo-corporativo-sao-paulo-ivan-dias.webp',
   },
   {
     slug: 'fotografo-corporativo-vs-fotografo-eventos',
@@ -674,7 +674,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'cobertura-congressos-convencoes-documentar-eventos',
@@ -710,7 +710,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'eventos-corporativos',
-    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'fotografia-para-rh-atrair-reter-talentos',
@@ -746,7 +746,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-03.jpg',
+    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-03.webp',
   },
   {
     slug: 'diferenca-foto-linkedin-curriculo-site-profissional',
@@ -782,7 +782,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
-    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'retratos-profissionais-vila-olimpia-faria-lima',
@@ -818,7 +818,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'fotografo-corporativo-itaim-bibi-c-levels',
@@ -854,7 +854,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'fotos-linkedin-faria-lima-profissionais-financas',
@@ -890,7 +890,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
-    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'fotografo-corporativo-pinheiros-criatividade-profissionalismo',
@@ -926,7 +926,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/eventos-corporativos/evento-premiacao-corporativo-sao-paulo-ivan-dias-03.jpg',
+    image: '/images/eventos-corporativos/evento-premiacao-corporativo-sao-paulo-ivan-dias-03.webp',
   },
   {
     slug: 'retratos-corporativos-tatuape-zona-leste',
@@ -962,7 +962,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-04.jpg',
+    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-04.webp',
   },
   {
     slug: 'fotografo-corporativo-paulista-coracao-negocios',
@@ -998,7 +998,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'eventos-corporativos',
-    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-05.jpg',
+    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-05.webp',
   },
   {
     slug: 'ensaio-corporativo-moema-bairro-favorito-executivos',
@@ -1034,7 +1034,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/portfolio/equipe-industrial-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/portfolio/equipe-industrial-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'fotos-linkedin-brooklin-profissionais-multinacionais',
@@ -1070,7 +1070,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
-    image: '/images/portfolio/industria-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/portfolio/industria-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'fotografo-corporativo-morumbi-imagem-premium',
@@ -1106,7 +1106,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/portfolio/colaborador-industria-sao-paulo-ivan-dias-03.jpg',
+    image: '/images/portfolio/colaborador-industria-sao-paulo-ivan-dias-03.webp',
   },
   {
     slug: 'fotos-corporativas-santana-zona-norte',
@@ -1142,7 +1142,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/portfolio/galpao-industrial-sao-paulo-ivan-dias-04.jpg',
+    image: '/images/portfolio/galpao-industrial-sao-paulo-ivan-dias-04.webp',
   },
   {
     slug: 'retrato-corporativo-tatuape-empresas-profissionais',
@@ -1178,7 +1178,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/og-ivan-dias-fotografo.jpg',
+    image: '/images/og-ivan-dias-fotografo.webp',
   },
   {
     slug: 'fotografo-corporativo-perdizes-criatividade-profissional',
@@ -1214,7 +1214,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
-    image: '/images/hero/fotografo-corporativo-sao-paulo-ivan-dias.jpg',
+    image: '/images/hero/fotografo-corporativo-sao-paulo-ivan-dias.webp',
   },
   {
     slug: 'retratos-executivos-butanta-referencia-fotografia-corporativa',
@@ -1250,7 +1250,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'fotos-linkedin-campo-belo-imagem-profissional-zona-sul',
@@ -1286,7 +1286,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
-    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'fotografo-corporativo-ipiranga-qualidade-tradicao',
@@ -1322,7 +1322,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-03.jpg',
+    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-03.webp',
   },
   {
     slug: 'ensaio-corporativo-jardins-endereco-certo',
@@ -1358,7 +1358,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'fotos-profissionais-centro-sp-praticidade-qualidade',
@@ -1394,7 +1394,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
-    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'fotografo-corporativo-lapa-atendimento-rapido',
@@ -1430,7 +1430,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'retratos-corporativos-bela-vista-perto-paulista',
@@ -1466,7 +1466,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'fotografo-corporativo-santo-andre-abc-paulista',
@@ -1502,7 +1502,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/eventos-corporativos/evento-premiacao-corporativo-sao-paulo-ivan-dias-03.jpg',
+    image: '/images/eventos-corporativos/evento-premiacao-corporativo-sao-paulo-ivan-dias-03.webp',
   },
   {
     slug: 'retrato-corporativo-sao-bernardo-campo-empresas-abc',
@@ -1538,7 +1538,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-04.jpg',
+    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-04.webp',
   },
   {
     slug: 'fotos-linkedin-sao-caetano-sul-profissionais-destaque',
@@ -1574,7 +1574,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
-    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-05.jpg',
+    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-05.webp',
   },
   {
     slug: 'fotografo-corporativo-diadema-empresas-profissionais',
@@ -1610,7 +1610,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/portfolio/equipe-industrial-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/portfolio/equipe-industrial-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'retrato-executivo-maua-fotografia-corporativa-abc',
@@ -1646,7 +1646,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/portfolio/industria-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/portfolio/industria-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'fotografo-corporativo-guarulhos-proximo-aeroporto',
@@ -1682,7 +1682,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/portfolio/colaborador-industria-sao-paulo-ivan-dias-03.jpg',
+    image: '/images/portfolio/colaborador-industria-sao-paulo-ivan-dias-03.webp',
   },
   {
     slug: 'fotos-corporativas-osasco-polo-empresarial',
@@ -1718,7 +1718,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
-    image: '/images/portfolio/galpao-industrial-sao-paulo-ivan-dias-04.jpg',
+    image: '/images/portfolio/galpao-industrial-sao-paulo-ivan-dias-04.webp',
   },
   {
     slug: 'fotografo-corporativo-mogi-das-cruzes-alto-tiete',
@@ -1754,7 +1754,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/og-ivan-dias-fotografo.jpg',
+    image: '/images/og-ivan-dias-fotografo.webp',
   },
   {
     slug: 'retrato-corporativo-suzano-imagem-profissional-alto-tiete',
@@ -1790,7 +1790,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/hero/fotografo-corporativo-sao-paulo-ivan-dias.jpg',
+    image: '/images/hero/fotografo-corporativo-sao-paulo-ivan-dias.webp',
   },
   {
     slug: 'ensaio-corporativo-santo-andre-cobertura-eventos-convencoes',
@@ -1826,7 +1826,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'eventos-corporativos',
-    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'fotografo-corporativo-sao-caetano-sul-equipes-diretoria',
@@ -1862,7 +1862,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'fotografia-corporativa-guarulhos-equipes-multinacionais',
@@ -1898,7 +1898,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-03.jpg',
+    image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-03.webp',
   },
   {
     slug: 'fotografo-corporativo-startups-sao-paulo-agilidade',
@@ -1934,7 +1934,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'fotografia-corporativa-equipes-vendas-padronizar-perfil',
@@ -1970,7 +1970,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
-    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'cobertura-fotografica-feiras-negocios-sao-paulo',
@@ -2006,7 +2006,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'eventos-corporativos',
-    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.webp',
   },
   {
     slug: 'foto-perfil-transicao-carreira-investir',
@@ -2042,7 +2042,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
-    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-02.jpg',
+    image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-02.webp',
   },
   {
     slug: 'fotografia-corporativa-workshops-treinamentos-empresariais',
@@ -2078,7 +2078,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'eventos-corporativos',
-    image: '/images/eventos-corporativos/evento-premiacao-corporativo-sao-paulo-ivan-dias-03.jpg',
+    image: '/images/eventos-corporativos/evento-premiacao-corporativo-sao-paulo-ivan-dias-03.webp',
   },
   {
     slug: 'banco-imagens-in-company-criar-manter-atualizado',
@@ -2114,7 +2114,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-04.jpg',
+    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-04.webp',
   },
   {
     slug: 'fotografia-corporativa-assessoria-imprensa-imagens-midia',
@@ -2150,7 +2150,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-05.jpg',
+    image: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-05.webp',
   },
   {
     slug: 'fotografo-corporativo-contratacao-ultima-hora-sao-paulo',
@@ -2186,7 +2186,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
-    image: '/images/portfolio/equipe-industrial-sao-paulo-ivan-dias-01.jpg',
+    image: '/images/portfolio/equipe-industrial-sao-paulo-ivan-dias-01.webp',
   },
 ];
 

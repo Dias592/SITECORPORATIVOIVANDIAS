@@ -10,7 +10,7 @@ type GenerateMetaParams = {
 
 export function generateMeta({ title, description, path, image }: GenerateMetaParams): Metadata {
   const url = `${SITE.url}${path}`;
-  const ogImage = image ?? `${SITE.url}/images/og-ivan-dias-fotografo.jpg`;
+  const ogImage = image ?? `${SITE.url}/images/og-ivan-dias-fotografo.webp`;
 
   return {
     title,

@@ -9,7 +9,7 @@ export function getLocalBusinessSchema() {
     url: SITE.url,
     telephone: SITE.phone,
     email: SITE.email,
-    image: `${SITE.url}/images/og-ivan-dias-fotografo.jpg`,
+    image: `${SITE.url}/images/og-ivan-dias-fotografo.webp`,
     priceRange: '$$',
     currenciesAccepted: 'BRL',
     paymentAccepted: 'PIX, Transferência Bancária, Cartão de Crédito',
@@ -157,12 +157,12 @@ export function getArticleSchema(options: {
       name: SITE.name,
       logo: {
         '@type': 'ImageObject',
-        url: `${SITE.url}/images/og-ivan-dias-fotografo.jpg`,
+        url: `${SITE.url}/images/og-ivan-dias-fotografo.webp`,
       },
     },
     datePublished: published,
     dateModified: modified,
-    image: options.image ?? `${SITE.url}/images/og-ivan-dias-fotografo.jpg`,
+    image: options.image ?? `${SITE.url}/images/og-ivan-dias-fotografo.webp`,
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `${SITE.url}/blog/${options.slug}`,

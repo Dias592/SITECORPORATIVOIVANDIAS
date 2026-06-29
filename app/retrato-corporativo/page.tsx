@@ -59,7 +59,7 @@ export default function RetratoCorporativoPage() {
               </a>
             </div>
             <div className="overflow-hidden rounded-2xl">
-              <PlaceholderPhoto label="Retrato corporativo executivo São Paulo - Ivan Dias" src="/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.jpg" natural />
+              <PlaceholderPhoto label="Retrato corporativo executivo São Paulo - Ivan Dias" src="/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.webp" natural />
             </div>
           </div>
         </div>

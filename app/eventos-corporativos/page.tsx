@@ -51,7 +51,7 @@ export default function EventosCorporativosPage() {
               </a>
             </div>
             <div className="overflow-hidden rounded-2xl">
-              <PlaceholderPhoto label="Cobertura fotográfica de evento corporativo - São Paulo - Ivan Dias" src="/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.jpg" natural />
+              <PlaceholderPhoto label="Cobertura fotográfica de evento corporativo - São Paulo - Ivan Dias" src="/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.webp" natural />
             </div>
           </div>
         </div>

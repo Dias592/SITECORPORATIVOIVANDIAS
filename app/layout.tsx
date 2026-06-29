@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     description: SITE.description,
     images: [
       {
-        url: `${SITE.url}/images/og-ivan-dias-fotografo.jpg`,
+        url: `${SITE.url}/images/og-ivan-dias-fotografo.webp`,
         width: 1200,
         height: 630,
         alt: 'Ivan Dias Fotógrafo Corporativo',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Fotógrafo Corporativo São Paulo | Retratos Executivos e Eventos | Ivan Dias',
     description: SITE.description,
-    images: [`${SITE.url}/images/og-ivan-dias-fotografo.jpg`],
+    images: [`${SITE.url}/images/og-ivan-dias-fotografo.webp`],
   },
   robots: {
     index: true,

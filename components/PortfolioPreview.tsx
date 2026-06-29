@@ -4,27 +4,27 @@ import PlaceholderPhoto from './PlaceholderPhoto';
 const ITEMS = [
   {
     label: 'Retrato executivo individual - São Paulo - Ivan Dias',
-    src: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.jpg',
+    src: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.webp',
   },
   {
     label: 'Foto de perfil para LinkedIn - São Paulo - Ivan Dias',
-    src: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.jpg',
+    src: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-01.webp',
   },
   {
     label: 'Retrato corporativo executivo - São Paulo - Ivan Dias',
-    src: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-02.jpg',
+    src: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-02.webp',
   },
   {
     label: 'Sessão de fotos para LinkedIn - São Paulo - Ivan Dias',
-    src: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-02.jpg',
+    src: '/images/fotos-linkedin/foto-perfil-linkedin-sao-paulo-ivan-dias-02.webp',
   },
   {
     label: 'Cobertura de evento corporativo - São Paulo - Ivan Dias',
-    src: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.jpg',
+    src: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.webp',
   },
   {
     label: 'Palestra em congresso empresarial - São Paulo - Ivan Dias',
-    src: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-04.jpg',
+    src: '/images/eventos-corporativos/palestra-corporativa-sao-paulo-ivan-dias-04.webp',
   },
 ];
 
