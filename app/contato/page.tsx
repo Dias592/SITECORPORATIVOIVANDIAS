@@ -4,7 +4,6 @@ import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
 import SchemaOrg from '@/components/SchemaOrg';
 import { generateMeta } from '@/lib/metadata';
-import { getLocalBusinessSchema } from '@/lib/schemas';
 import { SITE } from '@/lib/site';
 
 export const metadata: Metadata = generateMeta({
@@ -21,7 +20,7 @@ export default function ContatoPage() {
         schema={{
           '@context': 'https://schema.org',
           '@type': 'ContactPage',
-          mainEntity: getLocalBusinessSchema(),
+          mainEntity: { '@id': `${SITE.url}/#business` },
         }}
       />
 
