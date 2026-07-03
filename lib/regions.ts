@@ -131,23 +131,32 @@ export const regions: Region[] = [
       'A foto de perfil é, muitas vezes, o primeiro contato entre um recrutador e um candidato, ou entre um fornecedor e um novo cliente. Em setores tão competitivos quanto o automotivo, uma imagem profissional bem feita pode ser o diferencial entre ser notado ou passar despercebido em uma busca no LinkedIn.',
       'A sessão é pensada para quem tem rotina corrida: em 30 a 45 minutos, com direção de poses simples e sem necessidade de "saber posar", é possível obter diferentes enquadramentos para uso no LinkedIn, currículo e demais redes profissionais.',
       'Empresas de São Bernardo do Campo também podem agendar sessões coletivas para equipes inteiras, padronizando a imagem de todos os colaboradores no LinkedIn — uma prática cada vez mais comum em departamentos de RH e marketing que cuidam do employer branding da empresa.',
+      'São Bernardo do Campo concentra algumas das maiores operações industriais e corporativas do ABCD Paulista — das montadoras históricas que definiram a economia da região às empresas de tecnologia e serviços que se instalaram nas últimas décadas. Esse perfil econômico cria uma demanda específica por fotografia profissional: executivos e gestores de empresas de manufatura, logística, engenharia e finanças que precisam de uma imagem no LinkedIn que comunique autoridade técnica sem parecer excessivamente formal.',
+      'O profissional de São Bernardo que busca atualizar sua foto de LinkedIn hoje enfrenta uma escolha prática: deslocar-se até São Paulo capital para uma sessão em estúdio fixo — o que envolve trânsito, tempo e custo — ou encontrar um serviço de qualidade equivalente que atenda na própria região. O serviço com estúdio móvel resolve exatamente isso: toda a estrutura de iluminação profissional é montada no local de preferência do cliente, seja em um escritório em São Bernardo, em um coworking ou em um espaço indicado pelo próprio profissional.',
+      'Para empresas de São Bernardo do Campo que precisam padronizar a imagem do time de liderança, da equipe comercial ou de todos os colaboradores para o site institucional, o agendamento coletivo no próprio escritório da empresa elimina o custo logístico de deslocar dezenas de pessoas até a capital. O cronograma é definido previamente com o responsável de RH ou marketing, respeitando a rotina operacional da empresa.',
+      'A cobertura de São Bernardo do Campo se estende também às cidades vizinhas do ABCD — Santo André, São Caetano do Sul, Diadema e Mauá — para profissionais e empresas que preferem atendimento regional sem deslocamento até São Paulo.',
       'Profissionais e empresas de São Bernardo do Campo interessados em fotos para LinkedIn podem solicitar orçamento e agendamento pelo WhatsApp, com resposta em até 24 horas.',
     ],
     faqs: [
       {
-        question: 'A sessão de fotos para LinkedIn em São Bernardo é rápida?',
+        question: 'Vocês atendem em São Bernardo do Campo ou preciso ir até São Paulo?',
         answer:
-          'Sim, dura em média 30 a 45 minutos, com direção de poses simples e entrega das fotos tratadas em até 48 horas.',
+          'Atendemos em São Bernardo do Campo com estúdio móvel — a estrutura completa de iluminação é montada no local de sua preferência, sem necessidade de deslocamento até a capital. Cobrimos também Santo André, São Caetano do Sul, Diadema e Mauá.',
       },
       {
-        question: 'É possível agendar para toda a equipe da empresa em São Bernardo?',
+        question: 'Quanto tempo dura uma sessão de foto para LinkedIn em São Bernardo?',
         answer:
-          'Sim. É possível organizar uma sessão coletiva com horários individuais para cada colaborador, padronizando a imagem de toda a equipe no LinkedIn.',
+          'Entre 30 e 60 minutos para sessões individuais. A entrega das fotos tratadas é feita em até 5 dias úteis. Para sessões coletivas com equipes, o tempo por pessoa é de 15 a 20 minutos, com cronograma definido previamente.',
       },
       {
-        question: 'Profissionais do setor automotivo se beneficiam desse serviço?',
+        question: 'É possível fazer a sessão na empresa, sem sair do escritório em São Bernardo?',
         answer:
-          'Sim. Engenheiros, gestores e analistas do setor automotivo de São Bernardo costumam usar a foto de perfil profissional para fortalecer a presença no LinkedIn em processos de recrutamento e networking.',
+          'Sim. O estúdio móvel é montado diretamente nas instalações da empresa — sala de reuniões, recepção ou qualquer espaço disponível. Ideal para atualizar a foto de perfil de equipes inteiras sem interromper a operação.',
+      },
+      {
+        question: 'Vocês emitem nota fiscal para empresas de São Bernardo do Campo?',
+        answer:
+          'Sim. Todos os projetos para pessoa jurídica incluem nota fiscal via CNPJ e contrato de cessão de uso de imagem, facilitando o processo de pagamento e prestação de contas interna.',
       },
     ],
   },
