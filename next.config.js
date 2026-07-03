@@ -13,6 +13,11 @@ const nextConfig = {
         destination: 'https://ivandiasfoto.com.br/:path*',
         permanent: true,
       },
+      {
+        source: '/fotografia-institucional',
+        destination: '/retrato-corporativo',
+        permanent: true,
+      },
     ];
   },
   async headers() {
