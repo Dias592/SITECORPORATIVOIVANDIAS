@@ -180,28 +180,35 @@ export const posts: BlogPost[] = [
     excerpt:
       'A foto de perfil é o primeiro contato de recrutadores, clientes e parceiros com o seu perfil no LinkedIn. Veja como conseguir uma foto que realmente representa sua carreira.',
     content: [
-      'O LinkedIn é, para a maioria dos profissionais de São Paulo, o principal canal de networking, prospecção e busca por oportunidades. E a foto de perfil é o primeiro elemento visual que aparece em qualquer interação — comentário, mensagem, candidatura ou publicação. Ainda assim, é comum ver perfis com fotos cortadas de grupo, em baixa resolução ou tiradas em ambientes pouco profissionais.',
-      'O primeiro passo para uma boa foto de LinkedIn é o enquadramento: o ideal é um plano de busto, com a pessoa ocupando a maior parte do quadro, rosto bem iluminado e fundo neutro ou levemente desfocado, sem elementos que distraiam a atenção de quem está vendo o perfil.',
-      'A iluminação é o que diferencia uma foto amadora de uma foto profissional. Luz dura, sombras fortes no rosto ou contraluz (janela atrás da pessoa) são os erros mais comuns em fotos tiradas no celular. Em uma sessão profissional, a iluminação é montada especificamente para valorizar o rosto, suavizar texturas e manter o foco na expressão.',
-      'A expressão também importa mais do que parece. Um sorriso forçado ou uma pose rígida transmitem desconforto. Por isso, a direção durante a sessão é fundamental: o fotógrafo conduz a pessoa por diferentes variações de expressão e ângulo até captar aquela que parece mais natural e confiante — sem que a pessoa precise "saber posar" de antemão.',
-      'Para quem está em transição de carreira, buscando uma promoção, ou simplesmente atualizando o perfil depois de anos, uma sessão de fotos para LinkedIn em São Paulo costuma ser rápida — geralmente 30 a 60 minutos — e a entrega é feita em poucos dias, com diversas variações de enquadramento e expressão para escolher.',
-      'Atualizar a foto do LinkedIn é uma das ações de menor custo e maior impacto na percepção profissional online. Se você está em São Paulo, ABCD Paulista ou Grande SP e quer agendar uma sessão rápida, basta enviar uma mensagem pelo WhatsApp com sua disponibilidade.',
+      'O LinkedIn é, para a maioria dos profissionais de São Paulo, o principal canal de networking, prospecção e busca por oportunidades. A foto de perfil é o primeiro elemento visual que aparece em qualquer interação — comentário, mensagem, candidatura ou publicação. Ainda assim, é comum ver perfis com fotos cortadas de grupo, em baixa resolução, tiradas em ambientes pouco profissionais ou claramente desatualizadas. Em um mercado competitivo como o paulistano, esses detalhes têm peso real na percepção de quem vê o perfil.',
+      'O primeiro elemento de uma boa foto de LinkedIn é o enquadramento. O ideal é um plano de busto, com a pessoa ocupando a maior parte do quadro, rosto bem iluminado e fundo neutro ou levemente desfocado. O rosto deve estar centralizado e claramente visível mesmo no tamanho reduzido em que aparece nas buscas e no feed — o que elimina fotos de corpo inteiro, fotos muito abertas ou selfies onde o ângulo distorce as proporções do rosto.',
+      'A iluminação é o que diferencia uma foto amadora de uma foto profissional de forma mais imediata. Luz dura, sombras fortes no rosto, contraluz com janela atrás da pessoa e iluminação de teto que achata os traços são os erros mais comuns em fotos tiradas no celular. Em uma sessão profissional, a iluminação é montada especificamente para valorizar o rosto: suavizar texturas, equilibrar tons de pele e manter o foco na expressão. Esse cuidado técnico é o que faz uma foto parecer confiante em vez de amadora.',
+      'A expressão também importa mais do que parece. Um sorriso excessivamente forçado, uma pose muito rígida ou uma expressão neutra que transmita indiferença são erros frequentes. Em uma sessão conduzida por fotógrafo especializado, a direção passa por variações de expressão e ângulo — ligeiramente inclinado, olhando direto para a câmera, com diferentes intensidades de sorriso — até captar aquela que parece mais natural e ao mesmo tempo profissional. Você não precisa saber posar para chegar a esse resultado.',
+      'A escolha da roupa para a foto de LinkedIn deve considerar o setor de atuação e o cargo. Profissionais de finanças, direito e consultoria tendem a usar roupas mais formais — blazer, camisa, cores sólidas em tons neutros ou discretos. Profissionais de tecnologia, startups e áreas criativas têm mais liberdade para um visual mais contemporâneo. O importante é que a roupa não distraia — sem estampas muito chamativas, listras finas que vibram na câmera ou cores muito saturadas que desviem a atenção do rosto.',
+      'Para quem está em transição de carreira, buscando uma promoção, voltando ao mercado após um período de pausa ou simplesmente atualizando o perfil depois de anos com a mesma foto, a sessão de fotos para LinkedIn em São Paulo costuma ser rápida — geralmente entre 30 e 60 minutos. A entrega é feita em poucos dias, com diversas variações de enquadramento e expressão para escolher, em alta resolução para uso tanto no LinkedIn quanto em outros canais profissionais.',
+      'Para empresas que precisam atualizar a foto de perfil de toda a equipe — especialmente times comerciais, de atendimento e de liderança, que têm contato direto com clientes via LinkedIn — sessões coletivas permitem fotografar vários colaboradores no mesmo dia, com o mesmo padrão visual, sem deslocamento de todos até um estúdio. O estúdio móvel é montado no próprio ambiente da empresa.',
+      'Atualizar a foto do LinkedIn é uma das ações de menor custo e maior impacto na percepção profissional online. Se você está em São Paulo, ABCD Paulista ou Grande SP e quer agendar uma sessão rápida, entre em contato pelo WhatsApp com sua disponibilidade. Respondemos com proposta em até 24 horas e adaptamos o horário à sua agenda.',
     ],
     faqs: [
       {
-        question: 'Quanto tempo dura uma sessão de fotos para LinkedIn?',
+        question: 'Quanto tempo dura uma sessão de foto para LinkedIn?',
         answer:
-          'Sessões individuais focadas em LinkedIn costumam durar entre 30 e 60 minutos, com diferentes enquadramentos e expressões para escolher na entrega final.',
+          'Geralmente entre 30 e 60 minutos para sessões individuais. Nesse tempo é possível cobrir variações de enquadramento, expressão e até troca de roupa, garantindo opções para escolha. Para sessões coletivas com equipe, o tempo por pessoa costuma ser de 15 a 20 minutos.',
       },
       {
-        question: 'Preciso levar várias roupas para a sessão?',
+        question: 'O que devo vestir na sessão de foto para LinkedIn?',
         answer:
-          'É recomendável levar pelo menos duas opções de roupa (uma mais formal e uma mais casual/business), para ter variedade de fotos com diferentes contextos de uso.',
+          'Roupas que reflitam seu setor e nível de senioridade: mais formal para finanças, direito e consultoria; mais contemporâneo para tecnologia e startups. Prefira cores sólidas e evite estampas chamativas, listras finas e branco puro. Leve mais de uma opção para ter variações na entrega.',
       },
       {
-        question: 'Em quanto tempo recebo as fotos prontas?',
+        question: 'Em quanto tempo recebo as fotos após a sessão?',
         answer:
-          'Para sessões individuais de LinkedIn, a entrega costuma ser feita em poucos dias, com acesso a uma galeria online para seleção e download em alta resolução.',
+          'A galeria com as fotos selecionadas e tratadas é entregue em até 5 dias úteis via link de download. Para demandas urgentes, entrega expressa em 48 horas está disponível mediante consulta.',
+      },
+      {
+        question: 'A sessão pode ser feita na empresa, sem eu precisar me deslocar?',
+        answer:
+          'Sim. O serviço de estúdio móvel permite montar toda a estrutura de iluminação e backdrop diretamente no seu escritório. Ideal para atualizar a foto de perfil de equipes inteiras sem interromper a rotina de trabalho.',
       },
     ],
     relatedServiceSlug: 'fotos-linkedin',
@@ -216,28 +223,35 @@ export const posts: BlogPost[] = [
     excerpt:
       'A preparação para um ensaio corporativo começa antes da sessão. Veja o passo a passo para chegar tranquilo e aproveitar ao máximo o seu retrato profissional.',
     content: [
-      'Para quem nunca fez uma sessão de fotos profissional, é normal sentir um misto de ansiedade e curiosidade antes do ensaio corporativo. A boa notícia é que, com uma preparação simples, a experiência costuma ser muito mais tranquila do que se imagina — e o resultado, muito melhor do que qualquer foto tirada de improviso.',
-      'O primeiro passo é pensar no uso da foto antes de escolher a roupa: ela será usada principalmente no LinkedIn? No site da empresa? Em materiais de imprensa? Esse contexto ajuda a definir o tom — mais formal, mais descontraído, ou uma combinação dos dois ao longo da sessão.',
-      'Sobre roupas, a recomendação geral é evitar estampas muito chamativas, listras finas (que podem "vibrar" na imagem) e roupas totalmente brancas ou pretas sem variação de textura. Cores sólidas, em tons que combinem com a paleta da marca pessoal ou da empresa, costumam funcionar melhor. Vale levar mais de uma opção.',
-      'Na noite anterior, priorizar uma boa noite de sono faz mais diferença do que qualquer produto de beleza de última hora. Para quem usa maquiagem, uma versão levemente mais intensa do que o uso diário ajuda a "segurar" bem sob a luz do estúdio, sem parecer artificial nas fotos.',
-      'No dia da sessão, chegar com alguns minutos de antecedência ajuda a se ambientar e relaxar antes de começar. Durante o ensaio, toda a direção de poses é feita pelo fotógrafo — postura, posição das mãos, ângulo do rosto — então não é necessário "treinar poses" com antecedência.',
-      'Por fim, vale lembrar que o ensaio corporativo é um processo colaborativo: é normal experimentar diferentes enquadramentos, expressões e até cenários dentro da mesma sessão, até chegar nas fotos que melhor representam a imagem que você (ou sua empresa) quer transmitir.',
+      'Para quem nunca fez uma sessão de fotos profissional, é normal sentir um misto de ansiedade e curiosidade antes do ensaio corporativo. A boa notícia é que, com uma preparação simples, a experiência costuma ser muito mais tranquila do que se imagina — e o resultado, muito melhor do que qualquer foto tirada de improviso. Este guia cobre os principais pontos de preparação para garantir que você aproveite ao máximo o tempo da sessão.',
+      'O primeiro passo é pensar no uso final das fotos antes de escolher a roupa e o estilo da sessão. Elas serão usadas principalmente no LinkedIn? No site da empresa? Em materiais de imprensa, apresentações ou relatório anual? Esse contexto ajuda a definir o tom adequado — mais formal e clássico, mais contemporâneo e acessível, ou uma combinação dos dois para cobrir diferentes necessidades de comunicação ao longo da mesma sessão.',
+      'Sobre roupas, a recomendação geral é evitar estampas muito chamativas, listras finas que podem criar efeito moiré na imagem e roupas totalmente brancas ou pretas sem variação de textura. Cores sólidas em tons que combinem com a paleta da marca pessoal ou da empresa costumam funcionar melhor — azul, cinza, vinho e verde musgo são escolhas frequentes por serem versáteis e neutros. Levar pelo menos duas opções para a sessão é sempre uma boa ideia, porque permite criar variações que ampliam os usos possíveis das fotos entregues.',
+      'Na noite anterior, priorizar uma boa noite de sono faz mais diferença do que qualquer produto de beleza de última hora. A câmera detecta cansaço — olhos vermelhos, pele opaca e expressão tensa são difíceis de corrigir completamente na pós-produção. Para quem usa maquiagem, uma versão levemente mais intensa do que o uso diário ajuda a manter o visual bem sob a luz do estúdio, sem parecer artificial nas fotos: a câmera tende a suavizar o que parece excessivo no espelho.',
+      'Hidratação também importa mais do que parece. Pele bem hidratada reflete a luz de forma mais uniforme, o que facilita o trabalho de iluminação e reduz o tempo de retoque na pós-produção. Começar a hidratar a pele com 2 a 3 dias de antecedência, e beber água suficiente no dia da sessão, é um cuidado simples com impacto visual real.',
+      'No dia da sessão, chegar com alguns minutos de antecedência ajuda a se ambientar, conhecer o espaço e relaxar antes de começar. Sessões que começam com a pessoa já confortável no ambiente costumam produzir resultados melhores do que quando há correria ou tensão inicial. Durante o ensaio, toda a direção de poses é feita pelo fotógrafo — postura, posição das mãos, ângulo do rosto, inclinação dos ombros — então você não precisa saber posar nem ensaiar nada com antecedência.',
+      'Quanto ao celular, a recomendação é deixá-lo no silencioso e guardar durante a sessão. Interrupções quebram o ritmo e dificultam o trabalho de captar expressões naturais — que costumam aparecer nos momentos entre as poses formais, quando a pessoa relaxa brevemente. Os melhores retratos frequentemente são esses: aquele meio segundo de expressão genuína entre um enquadramento e outro.',
+      'Por fim, vale lembrar que o ensaio corporativo é um processo colaborativo: é normal experimentar diferentes enquadramentos, expressões e cenários dentro da mesma sessão, até chegar nas fotos que melhor representam a imagem que você ou sua empresa quer transmitir. Se algo não parecer certo durante a sessão, diga — o fotógrafo precisa dessas informações para ajustar e chegar ao resultado ideal.',
     ],
     faqs: [
       {
-        question: 'Preciso saber posar antes do ensaio corporativo?',
+        question: 'Preciso saber posar para o ensaio corporativo?',
         answer:
-          'Não. A direção de poses é feita durante toda a sessão pelo fotógrafo, incluindo postura, posição das mãos e ângulo do rosto, mesmo para quem nunca fez um ensaio antes.',
+          'Não. Durante toda a sessão, o fotógrafo conduz você por ajustes de postura, posição das mãos, ângulo do rosto e expressão. Você não precisa ensaiar nada com antecedência — a direção ativa é exatamente o que garante um resultado natural e confiante, mesmo para quem nunca fotografou profissionalmente.',
       },
       {
-        question: 'Quantas opções de roupa devo levar?',
+        question: 'Quantas roupas devo levar para o ensaio?',
         answer:
-          'O ideal é levar de duas a três opções, priorizando cores sólidas e evitando estampas muito chamativas, para ter variedade de fotos para diferentes usos.',
+          'Recomendamos pelo menos duas opções — uma mais formal e uma levemente mais casual. Isso permite criar variações na entrega que cobrem diferentes contextos de uso: LinkedIn, site institucional, materiais de imprensa. Evite estampas muito chamativas, listras finas e branco puro.',
       },
       {
-        question: 'Quanto tempo antes devo chegar para a sessão?',
+        question: 'Quanto tempo dura um ensaio corporativo?',
         answer:
-          'Chegar de 10 a 15 minutos antes do horário marcado ajuda a se ambientar e começar a sessão com mais tranquilidade.',
+          'Sessões individuais geralmente duram entre 45 e 90 minutos, dependendo do número de looks e cenários. Sessões para equipes são organizadas com blocos de 15 a 20 minutos por pessoa, com cronograma definido previamente para não impactar a rotina do escritório.',
+      },
+      {
+        question: 'O ensaio pode ser feito no escritório da empresa?',
+        answer:
+          'Sim. O serviço de estúdio móvel permite montar toda a estrutura de iluminação e backdrop diretamente no ambiente da empresa, seja em uma sala de reuniões ou área disponível. Ideal para sessões com várias pessoas, evitando o deslocamento de toda a equipe.',
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
@@ -469,28 +483,35 @@ export const posts: BlogPost[] = [
     excerpt:
       'Nem toda foto de rosto é um retrato executivo. Veja o que diferencia tecnicamente os dois formatos e por que essa diferença é percebida mesmo por quem não entende de fotografia.',
     content: [
-      'À primeira vista, qualquer foto que mostre o rosto de uma pessoa pode parecer uma "foto de perfil". Mas existe uma diferença técnica e perceptiva considerável entre uma foto de perfil comum — tirada no celular, em casa ou recortada de outra imagem — e um retrato executivo produzido profissionalmente.',
-      'A primeira diferença está na iluminação. Um retrato executivo é construído com iluminação direcionada especificamente para o rosto da pessoa: luz principal, luz de preenchimento e, muitas vezes, uma luz de fundo para separar a pessoa do plano de fundo. Uma foto de perfil comum depende da luz disponível no ambiente, o que raramente favorece o rosto.',
-      'A segunda diferença é a composição. No retrato executivo, o enquadramento, o ângulo da câmera e a posição do corpo são pensados para transmitir uma mensagem específica — geralmente confiança, abertura e autoridade. Em uma foto comum, esses elementos são acidentais, resultado do momento em que a foto foi tirada.',
-      'A terceira diferença, talvez a mais importante, é a direção de poses. Um fotógrafo especializado em retratos executivos conduz a pessoa fotografada por pequenos ajustes — inclinação da cabeça, posição dos ombros, expressão dos olhos — que fazem uma diferença enorme no resultado final, mesmo sendo imperceptíveis individualmente.',
-      'Por fim, há a questão da pós-produção: retratos executivos passam por um tratamento de imagem sutil, que ajusta iluminação, cor e nitidez sem deixar a foto "artificial" — diferente de filtros automáticos de redes sociais, que costumam distorcer tons de pele e texturas.',
-      'O resultado dessas diferenças é perceptível mesmo para quem não entende de fotografia: um retrato executivo bem feito comunica, em segundos, que a pessoa (ou a empresa que ela representa) investe em sua imagem profissional — uma mensagem sutil, mas com peso real em decisões de negócio.',
+      'À primeira vista, qualquer foto que mostre o rosto de uma pessoa pode parecer uma foto de perfil. Mas existe uma diferença técnica e perceptiva considerável entre uma foto de perfil comum — tirada no celular, em casa ou recortada de outra imagem — e um retrato executivo produzido profissionalmente. Essa diferença não é apenas estética: ela afeta diretamente a percepção de autoridade, competência e confiabilidade de quem é retratado.',
+      'A primeira diferença está na iluminação. Um retrato executivo é construído com iluminação direcionada especificamente para o rosto da pessoa: luz principal, luz de preenchimento e, muitas vezes, uma luz de fundo para separar a pessoa do plano de fundo. Cada fonte de luz tem uma função específica — a luz principal define a estrutura do rosto, a de preenchimento suaviza sombras indesejadas, e a de fundo cria profundidade. Uma foto de perfil comum depende da luz disponível no ambiente, o que raramente favorece o rosto da maneira correta.',
+      'A segunda diferença é a composição. No retrato executivo, o enquadramento, o ângulo da câmera e a posição do corpo são pensados para transmitir uma mensagem específica — geralmente confiança, abertura e autoridade. A altura da câmera em relação ao rosto, o espaço ao redor do corpo, a inclinação dos ombros e até a direção do olhar são decisões técnicas deliberadas. Em uma foto comum, esses elementos são acidentais, resultado do momento em que a foto foi tirada sem nenhum planejamento visual.',
+      'A terceira diferença, talvez a mais importante para quem vai usar a foto profissionalmente, é a direção de poses. Um fotógrafo especializado em retratos executivos conduz a pessoa fotografada por pequenos ajustes — inclinação da cabeça, posição dos ombros, expressão dos olhos, tensão da mandíbula — que fazem uma diferença enorme no resultado final, mesmo sendo imperceptíveis individualmente. Essa direção ativa é o que permite que uma pessoa que nunca fotografou profissionalmente consiga um resultado que parece natural e confiante, sem aquela rigidez típica de quem não sabe posar.',
+      'Há também a questão do contexto de uso. Uma foto de perfil tirada rapidamente pode funcionar bem para redes sociais informais, mas para LinkedIn, sites institucionais, materiais de imprensa, apresentações para investidores ou cartões de visita digitais, o nível de qualidade exigido é diferente. Nesses contextos, a foto funciona como um cartão de visita visual — e a primeira impressão formada em poucos segundos pode determinar se alguém decide clicar para saber mais sobre você ou seguir em frente.',
+      'Por fim, há a questão da pós-produção. Retratos executivos passam por um tratamento de imagem sutil, que ajusta iluminação, cor, nitidez e eventuais imperfeições de pele sem deixar a foto com aparência artificial. Esse tratamento é feito manualmente, imagem por imagem, por profissionais treinados para preservar a naturalidade enquanto elevam a qualidade técnica. É diferente de filtros automáticos de aplicativos, que costumam distorcer tons de pele, suavizar texturas excessivamente e criar uma aparência claramente editada.',
+      'O resultado dessas diferenças é perceptível mesmo para quem não entende de fotografia: um retrato executivo bem feito comunica, em segundos, que a pessoa (ou a empresa que ela representa) investe em sua imagem profissional. Para executivos, profissionais liberais, empreendedores e qualquer pessoa que use o LinkedIn como ferramenta de negócios em São Paulo, essa é uma diferença com peso real em decisões de networking, contratação e fechamento de contratos.',
+      'Para empresas que precisam padronizar a imagem de toda a equipe, o retrato executivo também resolve um problema prático: quando todos os colaboradores têm fotos com o mesmo padrão de iluminação, fundo e tratamento, o site institucional, o relatório anual e os materiais de comunicação ganham coesão visual imediata — algo impossível de obter quando cada pessoa usa uma foto tirada em contextos diferentes, com equipamentos diferentes e em momentos diferentes.',
     ],
     faqs: [
       {
-        question: 'Uma foto tirada no celular pode substituir um retrato executivo?',
+        question: 'Qual a diferença entre retrato executivo e foto de perfil para LinkedIn?',
         answer:
-          'Pode funcionar como solução temporária, mas dificilmente alcança o mesmo nível de iluminação, composição e direção de poses de um retrato executivo profissional.',
+          'O retrato executivo é produzido com iluminação profissional direcionada, direção ativa de poses e pós-produção manual — tudo pensado para transmitir autoridade e confiança. Uma foto de perfil comum, tirada no celular ou recortada de outra imagem, depende da luz disponível e não tem essa condução técnica. O resultado é perceptível mesmo para quem não entende de fotografia: o retrato executivo comunica profissionalismo imediatamente.',
       },
       {
-        question: 'O retrato executivo é apenas para C-levels?',
+        question: 'Preciso saber posar para fazer um retrato executivo?',
         answer:
-          'Não. Qualquer profissional que dependa de uma boa primeira impressão visual — em LinkedIn, site ou materiais institucionais — pode se beneficiar de um retrato executivo.',
+          'Não. Durante toda a sessão, o fotógrafo conduz você por pequenos ajustes de postura, ângulo e expressão. Você não precisa saber posar de antemão — a direção ativa é exatamente o que garante que o resultado pareça natural e confiante, mesmo para quem nunca fotografou profissionalmente.',
       },
       {
-        question: 'Quanto tempo dura uma sessão de retrato executivo?',
+        question: 'Para quais usos o retrato executivo é mais indicado?',
         answer:
-          'Sessões individuais costumam durar entre 30 e 60 minutos, dependendo da quantidade de variações de pose, roupa e cenário desejadas.',
+          'LinkedIn, sites institucionais, materiais de imprensa, apresentações para investidores, cartões de visita digitais e qualquer contexto onde a primeira impressão visual importa. Para redes sociais informais, uma foto de celular pode funcionar — mas em contextos profissionais de alto nível, o retrato executivo é o padrão esperado.',
+      },
+      {
+        question: 'É possível fazer retratos executivos para toda a equipe de uma empresa?',
+        answer:
+          'Sim. Sessões para equipes são organizadas com cronograma individual para cada colaborador, garantindo o mesmo padrão de iluminação, fundo e tratamento para todos. O resultado é um banco de imagens coeso, que pode ser usado no site institucional, relatório anual e materiais de comunicação com consistência visual.',
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
@@ -649,28 +670,35 @@ export const posts: BlogPost[] = [
     excerpt:
       'Nem todo fotógrafo profissional atende as mesmas demandas. Veja a diferença entre fotógrafo corporativo e fotógrafo de eventos e qual escolher para seu projeto.',
     content: [
-      'Embora ambos sejam fotógrafos profissionais, o fotógrafo corporativo e o fotógrafo de eventos têm especializações diferentes — e entender essa diferença ajuda a contratar o profissional certo para cada necessidade, evitando expectativas desalinhadas.',
-      'O fotógrafo corporativo é especializado em sessões planejadas: retratos individuais ou de equipe, com controle total sobre iluminação, fundo, poses e tempo de sessão. O foco está em produzir imagens consistentes, com padrão visual definido, para uso institucional e em redes profissionais.',
-      'O fotógrafo de eventos, por sua vez, trabalha em tempo real, registrando momentos que acontecem uma única vez — palestras, premiações, momentos de networking — sem possibilidade de "refazer" a cena. A habilidade central aqui é antecipação e adaptação rápida às condições do ambiente.',
-      'Para um projeto de atualização de fotos de perfil da equipe, banco de imagens institucional ou retratos executivos individuais, o fotógrafo corporativo é a escolha adequada — o resultado depende de planejamento, iluminação controlada e direção de poses.',
-      'Já para a cobertura de um congresso, convenção, lançamento de produto ou evento de premiação, o fotógrafo de eventos corporativos é o mais indicado — o resultado depende de presença no momento certo, discrição e adaptação à dinâmica do evento.',
-      'Vale destacar que muitos profissionais atuam nas duas frentes — como é o caso de fotógrafos especializados em fotografia corporativa que também atendem eventos empresariais — o que permite, inclusive, contratar um único profissional para ambas as necessidades, mantendo consistência visual entre os materiais.',
+      'Embora ambos sejam fotógrafos profissionais que atuam no ambiente corporativo, o fotógrafo corporativo e o fotógrafo de eventos têm especializações técnicas e metodológicas distintas. Entender essa diferença antes de contratar evita expectativas desalinhadas — e garante o resultado certo para cada tipo de necessidade.',
+      'O fotógrafo corporativo é especializado em sessões planejadas e controladas: retratos individuais ou de equipe, com controle total sobre iluminação, fundo, poses e ritmo da sessão. O foco está em produzir imagens consistentes, com padrão visual definido e replicável, para uso institucional — site da empresa, LinkedIn, materiais de imprensa, relatório anual, apresentações comerciais. Cada detalhe da imagem é uma decisão técnica: a intensidade da luz, o ângulo do enquadramento, a expressão capturada.',
+      'O fotógrafo de eventos, por sua vez, trabalha em tempo real, registrando momentos que acontecem uma única vez e que não podem ser refeitos para a câmera. Palestras, premiações, momentos de networking, reações espontâneas da plateia, bastidores de uma convenção — tudo isso depende de antecipação, mobilidade e adaptação rápida às condições variáveis de luz e espaço. A habilidade central aqui não é controle, é presença.',
+      'Outro ponto de diferença importante é o volume de entregáveis. Uma sessão de retrato corporativo para uma equipe de 20 pessoas pode resultar em 3 a 5 fotos finais por pessoa — cada uma selecionada, tratada e aprovada individualmente. Já uma cobertura de evento corporativo de um dia inteiro pode resultar em centenas de fotos editadas, organizadas por momento (credenciamento, plenária, coffee break, premiação), para uso amplo em redes sociais, newsletters e materiais de comunicação pós-evento.',
+      'Para um projeto de atualização de fotos de perfil de equipe, banco de imagens institucional, retratos executivos de diretoria ou fotos para o site da empresa, o fotógrafo corporativo é a escolha adequada. O resultado depende de planejamento, iluminação controlada, direção de poses e consistência visual entre todas as imagens produzidas.',
+      'Para a cobertura de um congresso, convenção de vendas, lançamento de produto, workshop ou evento de premiação, o fotógrafo de eventos corporativos é o mais indicado. O resultado depende de agilidade, discrição, capacidade de trabalhar em ambientes com iluminação variável e habilidade para capturar os momentos decisivos de um evento sem interrompê-lo.',
+      'Vale destacar que muitos profissionais especializados em fotografia corporativa também atendem eventos empresariais — o que permite contratar um único fornecedor para as duas necessidades, mantendo consistência visual entre os materiais de retrato e de eventos produzidos pela mesma empresa. Isso é especialmente útil para empresas que fazem tanto a atualização periódica de fotos de equipe quanto coberturas de eventos internos como convenções e treinamentos.',
+      'Em São Paulo e região, onde o mercado corporativo é denso e a demanda por imagem profissional é alta, contar com um fotógrafo que entende as especificidades de cada tipo de projeto — e que tem portfólio em ambas as frentes — é um diferencial na hora de manter consistência visual na comunicação da empresa ao longo do tempo.',
     ],
     faqs: [
       {
-        question: 'Posso contratar o mesmo fotógrafo para retratos e para um evento?',
+        question: 'Qual a diferença entre fotógrafo corporativo e fotógrafo de eventos?',
         answer:
-          'Sim, desde que o profissional tenha experiência em ambos os formatos. Isso ainda traz a vantagem de manter consistência visual entre os materiais da empresa.',
+          'O fotógrafo corporativo é especializado em sessões planejadas — retratos, fotos de equipe, banco de imagens institucional — com controle total de iluminação, poses e resultado. O fotógrafo de eventos trabalha em tempo real, registrando momentos espontâneos de congressos, convenções e lançamentos. As habilidades centrais são diferentes: controle vs. antecipação.',
       },
       {
-        question: 'Qual profissional contratar para fotos de perfil da equipe?',
+        question: 'Para atualizar as fotos de perfil da minha equipe, qual profissional contratar?',
         answer:
-          'Para retratos individuais ou de equipe com padrão visual definido, o fotógrafo corporativo é o mais indicado, pois trabalha com sessões planejadas e iluminação controlada.',
+          'Fotógrafo corporativo. A atualização de fotos de perfil, banco de imagens institucional e retratos executivos exige iluminação controlada, direção de poses e consistência visual entre todas as imagens — características da fotografia corporativa planejada, não da cobertura de eventos em tempo real.',
       },
       {
-        question: 'E para cobrir um evento empresarial?',
+        question: 'É possível contratar o mesmo fotógrafo para retratos corporativos e cobertura de eventos?',
         answer:
-          'Para congressos, convenções e premiações, o fotógrafo de eventos corporativos é o mais indicado, por sua experiência em registrar momentos únicos com agilidade.',
+          'Sim. Muitos profissionais especializados em fotografia corporativa também atendem eventos empresariais. Contratar o mesmo fornecedor para as duas necessidades garante consistência visual entre os materiais e simplifica a gestão de fornecedores para o departamento de marketing ou RH.',
+      },
+      {
+        question: 'Vocês fazem cobertura de eventos corporativos em São Paulo e ABCD?',
+        answer:
+          'Sim. Cobrimos congressos, convenções de vendas, workshops, lançamentos de produtos e eventos de premiação em São Paulo, ABCD Paulista e Grande SP. O escopo e o valor da cobertura variam conforme a duração e o volume de entregáveis — solicite orçamento pelo WhatsApp.',
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
@@ -1765,28 +1793,34 @@ export const posts: BlogPost[] = [
     excerpt:
       'Suzano tem uma economia ligada à indústria de papel e celulose e a um comércio local diversificado. Veja como funciona o atendimento de retrato corporativo na região.',
     content: [
-      'Suzano tem uma economia historicamente ligada à indústria de papel e celulose, além de um comércio local diversificado e um número crescente de profissionais que atuam em áreas administrativas e técnicas.',
-      'Para esses profissionais, o retrato corporativo é uma forma de atualizar a imagem usada em perfis de LinkedIn, currículos e materiais institucionais, sem necessidade de deslocamento até a capital para um serviço de qualidade.',
-      'A sessão de retrato corporativo em Suzano segue o mesmo padrão técnico aplicado em qualquer outra região: iluminação controlada, direção de poses e variações de enquadramento, em estúdio ou no local de trabalho com estúdio móvel.',
-      'Empresas de Suzano que precisam padronizar a imagem de equipes também podem agendar sessões coletivas, com cronograma de horários individuais para cada colaborador.',
-      'A proximidade com Mogi das Cruzes e outras cidades do Alto Tietê também amplia o alcance do atendimento, cobrindo profissionais e empresas dessa região.',
-      'Profissionais e empresas de Suzano interessados em retrato corporativo podem solicitar orçamento personalizado pelo WhatsApp, com nota fiscal disponível para pessoa jurídica.',
+      'Suzano é uma das cidades mais dinâmicas do Alto Tietê, com uma economia que foi historicamente ancorada na indústria de papel e celulose mas que nas últimas décadas diversificou significativamente — hoje abriga um comércio local robusto, indústrias de diferentes segmentos e um número crescente de profissionais que atuam em áreas administrativas, técnicas, jurídicas e de saúde. Para esses profissionais e para as empresas da região, o retrato corporativo profissional é uma necessidade prática, não um luxo.',
+      'Por estar a cerca de 60 quilômetros do centro de São Paulo, Suzano ficava historicamente afastada dos serviços fotográficos de alto padrão concentrados na capital. Profissionais que precisavam de um retrato executivo de qualidade precisavam se deslocar até São Paulo, o que envolvia tempo e custo significativos. O atendimento com estúdio móvel resolve esse problema diretamente: a estrutura completa de iluminação, backdrop e equipamentos é levada até Suzano, seja para sessões individuais em estúdio temporário ou para sessões coletivas nas instalações da própria empresa.',
+      'A sessão de retrato corporativo em Suzano segue o mesmo padrão técnico aplicado em qualquer outra região da Grande SP: iluminação controlada com luz principal, de preenchimento e de fundo, direção ativa de poses durante toda a sessão e variações de enquadramento (busto, meio corpo, ambiental) para cobrir diferentes necessidades de uso. O resultado é um banco de imagens profissional, com tratamento individual de cada foto, entregue em até 5 dias úteis via galeria online.',
+      'Para advogados, médicos, engenheiros, contadores, consultores e outros profissionais liberais de Suzano que usam o LinkedIn como canal de prospecção e networking, a foto de perfil é frequentemente o primeiro elemento de avaliação de um potencial cliente ou parceiro. Uma foto desatualizada, tirada no celular ou recortada de outro contexto comunica descuido com a imagem profissional — o oposto do que esses profissionais querem transmitir.',
+      'Empresas de Suzano com times comerciais, de atendimento ou de liderança que precisam padronizar a imagem de toda a equipe podem agendar sessões coletivas com cronograma de horários individuais. Esse modelo é especialmente eficiente para empresas com 10 a 50 colaboradores: em um único dia de sessão, é possível fotografar toda a equipe com o mesmo padrão visual, entregando um banco de imagens coeso para uso no site institucional, materiais de vendas e redes sociais corporativas.',
+      'A cobertura também se estende às cidades vizinhas da região do Alto Tietê — Mogi das Cruzes, Itaquaquecetuba, Ferraz de Vasconcelos, Poá e Arujá — ampliando o alcance do atendimento para profissionais e empresas que também ficam distantes dos centros fotográficos da capital.',
+      'Para profissionais e empresas de Suzano e região que precisam de retrato corporativo, fotos para LinkedIn ou cobertura fotográfica de eventos empresariais, o agendamento é feito pelo WhatsApp com proposta personalizada em até 24 horas. Todos os projetos para pessoa jurídica incluem nota fiscal e contrato de cessão de uso de imagem.',
     ],
     faqs: [
       {
-        question: 'O atendimento de retrato corporativo cobre Suzano?',
+        question: 'Vocês atendem em Suzano ou preciso ir até São Paulo?',
         answer:
-          'Sim. O atendimento cobre Suzano e a região do Alto Tietê, com a mesma estrutura usada em São Paulo.',
+          'Atendemos em Suzano com estúdio móvel — toda a estrutura de iluminação e equipamentos é levada até a sua localização, sem necessidade de deslocamento até a capital. O serviço cobre também Mogi das Cruzes, Itaquaquecetuba, Ferraz de Vasconcelos, Poá e outras cidades do Alto Tietê.',
       },
       {
-        question: 'É necessário se deslocar até a capital para fazer a sessão?',
+        question: 'É possível fotografar toda a equipe da empresa em Suzano em um único dia?',
         answer:
-          'Não. Com o estúdio móvel, a sessão pode ser realizada no próprio local de trabalho do profissional ou empresa em Suzano.',
+          'Sim. Sessões coletivas são organizadas com cronograma de horários individuais — geralmente 15 a 20 minutos por pessoa — permitindo fotografar equipes de 10 a 50 pessoas em um único dia nas instalações da própria empresa, sem interromper a operação.',
       },
       {
-        question: 'Empresas de Suzano podem agendar sessões coletivas para equipes?',
+        question: 'O serviço inclui nota fiscal para empresas de Suzano?',
         answer:
-          'Sim. É possível organizar sessões coletivas com cronograma de horários individuais para cada colaborador.',
+          'Sim. Todos os projetos para pessoa jurídica são faturados com nota fiscal via CNPJ, com contrato de cessão de uso de imagem incluído. Isso facilita o processo de pagamento e a prestação de contas interna das empresas.',
+      },
+      {
+        question: 'Quanto tempo demora para receber as fotos após a sessão em Suzano?',
+        answer:
+          'A galeria com as fotos tratadas é entregue em até 5 dias úteis via link de download. Para projetos com prazo específico, o cronograma de entrega é definido antes da sessão.',
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',

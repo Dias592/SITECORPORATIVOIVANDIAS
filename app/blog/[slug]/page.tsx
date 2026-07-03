@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 import PlaceholderPhoto from '@/components/PlaceholderPhoto';
 import SchemaOrg from '@/components/SchemaOrg';
 import { generateMeta } from '@/lib/metadata';
-import { getArticleSchema } from '@/lib/schemas';
+import { getArticleSchema, getFAQPageSchema } from '@/lib/schemas';
 import { getBlogSlugs, getPostBySlug, getAllPosts } from '@/lib/blog';
 import { getServiceBySlug } from '@/lib/services';
 import Link from 'next/link';
@@ -51,6 +51,14 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           image: post.image,
         })}
       />
+      {post.faqs && post.faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getFAQPageSchema(post.faqs)),
+          }}
+        />
+      )}
 
       <article className="bg-bg pb-20 pt-32 md:pb-28 md:pt-44">
         <div className="mx-auto max-w-4xl px-6 md:px-12">
