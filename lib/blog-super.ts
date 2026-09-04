@@ -329,7 +329,7 @@ export const superPosts: BlogPost[] = [
       'Guia completo de cobertura fotográfica para eventos corporativos em São Paulo, com atendimento especializado para empresas e agências de eventos.',
     image: '/images/eventos-corporativos/cobertura-evento-corporativo-sao-paulo-ivan-dias-01.webp',
     relatedServiceSlug: 'eventos-corporativos',
-    relatedSlugs: ['foto-empresarial-banco-imagens-institucional', 'fotografia-corporativa-empresas-sao-paulo', 'quanto-custa-retrato-corporativo-sp-2026'],
+    relatedSlugs: ['foto-empresarial-banco-imagens-institucional', 'fotografia-corporativa-empresas-sao-paulo', 'fotografo-corporativo-contratacao-ultima-hora-sao-paulo'],
     content: [
       'A cobertura fotográfica de eventos corporativos é um dos serviços mais estratégicos que uma empresa ou agência de eventos pode contratar em São Paulo. As imagens produzidas durante um evento não servem apenas como registro — elas se tornam conteúdo para redes sociais, relatórios de resultados, materiais de relacionamento com patrocinadores e peças de comunicação interna. Um evento corporativo bem fotografado gera meses de conteúdo visual, multiplicando o retorno sobre o investimento na produção do próprio evento.',
 

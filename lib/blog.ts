@@ -702,6 +702,11 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
+    relatedSlugs: [
+      'cobertura-eventos-corporativos-sao-paulo',
+      'fotografo-corporativo-contratacao-ultima-hora-sao-paulo',
+      'ensaio-corporativo-como-se-preparar',
+    ],
     image: '/images/retrato-corporativo/retrato-executivo-sao-paulo-ivan-dias-01.webp',
   },
   {
@@ -2195,31 +2200,43 @@ export const posts: BlogPost[] = [
     excerpt:
       'Às vezes a necessidade de uma foto profissional surge de última hora. Veja como funciona a contratação de um fotógrafo corporativo com pouca antecedência em São Paulo.',
     content: [
-      'É comum que a necessidade de uma foto profissional surja de forma inesperada: uma entrevista marcada para a próxima semana, uma matéria que vai ser publicada em poucos dias, ou um perfil de LinkedIn que precisa ser atualizado às pressas para um processo seletivo.',
-      'Nessas situações, encontrar um fotógrafo corporativo disponível com pouca antecedência em São Paulo pode parecer um desafio, mas verificar a disponibilidade de agenda direto pelo WhatsApp é o caminho mais rápido para saber se é possível agendar para os próximos dias.',
-      'Para sessões de última hora, o foco costuma ser objetivo: retrato executivo ou fotos para LinkedIn, com poucos enquadramentos e entrega em prazo reduzido, sempre que a urgência do cliente exigir.',
-      'O estúdio móvel também ajuda nesses casos: a sessão pode ser realizada no próprio escritório do profissional, eliminando a necessidade de deslocamento até um estúdio e o tempo associado a esse deslocamento.',
-      'Mesmo em sessões de última hora, a qualidade técnica não é reduzida: iluminação controlada e direção de poses garantem um resultado profissional, independentemente do prazo de agendamento.',
-      'Profissionais e empresas de São Paulo com necessidade urgente de fotos corporativas podem verificar disponibilidade de agenda diretamente pelo WhatsApp, informando o prazo desejado.',
+      'No mercado corporativo de São Paulo, nem toda demanda de fotografia chega com semanas de antecedência. Reuniões de última hora com investidores, processos seletivos acelerados, atualizações urgentes de site institucional ou a necessidade de substituir uma foto de perfil desatualizada antes de uma entrevista importante — essas situações acontecem com mais frequência do que se imagina, e exigem um fornecedor que consiga entregar qualidade profissional em prazos comprimidos.',
+      'A boa notícia é que a urgência não precisa comprometer o resultado. A diferença entre uma sessão agendada com três semanas de antecedência e uma sessão agendada com 48 horas de antecedência está no planejamento logístico — não na qualidade técnica das imagens produzidas. Iluminação controlada, direção de poses e pós-produção profissional são entregues da mesma forma, independentemente do prazo de agendamento.',
+      'Para profissionais em São Paulo que precisam de uma foto de perfil para LinkedIn ou retrato executivo com urgência, o serviço de estúdio móvel é o caminho mais eficiente: toda a estrutura de iluminação e backdrop é levada diretamente ao escritório ou local de preferência do cliente, eliminando o tempo de deslocamento e permitindo encaixar a sessão na agenda sem grandes rupturas na rotina de trabalho.',
+      'O processo em casos de urgência funciona assim: o briefing é feito por WhatsApp ou telefone, com alinhamento rápido sobre o uso das fotos, número de looks e preferências de fundo. A sessão é agendada para o primeiro horário disponível compatível com a agenda do cliente — frequentemente no mesmo dia ou no dia seguinte. A galeria de pré-seleção é enviada em até 24 horas após a sessão, e as fotos finais tratadas são entregues em até 48 horas após a escolha. Para situações extremamente urgentes, a entrega expressa com tratamento simplificado pode ser feita em poucas horas.',
+      'Empresas que precisam de retratos padronizados para toda a equipe em prazo reduzido — por conta de um lançamento de site, rebranding ou campanha iminente — também podem ser atendidas com cronograma comprimido. Nesses casos, o planejamento prévio é feito em uma única ligação, com definição do número de pessoas, tempo por pessoa e logística de espaço dentro da empresa. Equipes de até 20 pessoas podem ser fotografadas em meio período; equipes maiores, em um dia inteiro com cronograma de horários individuais.',
+      'Para agências de comunicação e produtoras que organizam eventos corporativos em São Paulo e eventualmente precisam de cobertura fotográfica com pouca antecedência — por substituição de fornecedor, cancelamento de última hora ou adição de um evento ao calendário —, o atendimento de urgência também está disponível, com proposta enviada em até 2 horas após o contato inicial.',
+      'O atendimento de urgência cobre São Paulo capital e, dependendo da data e disponibilidade, ABCD Paulista, Guarulhos e Osasco. Para demandas fora dessas regiões ou em datas de alta ocupação, o prazo mínimo pode variar — o ideal é entrar em contato pelo WhatsApp assim que a necessidade for identificada, para verificar disponibilidade em tempo real.',
+      'Se você ou sua empresa precisam de um fotógrafo corporativo em São Paulo com disponibilidade imediata ou em curtíssimo prazo, entre em contato pelo WhatsApp agora. Respondemos em minutos durante o horário comercial e verificamos disponibilidade para o prazo necessário.',
     ],
     faqs: [
       {
-        question: 'É possível agendar uma sessão de fotos corporativas com poucos dias de antecedência?',
+        question: 'É possível agendar uma sessão de foto corporativa com menos de 48 horas de antecedência em São Paulo?',
         answer:
-          'A disponibilidade varia conforme a agenda, mas vale a pena verificar diretamente pelo WhatsApp — muitas vezes é possível encaixar sessões objetivas em poucos dias.',
+          'Sim, dependendo da disponibilidade de agenda. Para sessões individuais de retrato executivo ou foto para LinkedIn, o agendamento pode ser feito com 24 a 48 horas de antecedência na maioria dos casos. Entre em contato pelo WhatsApp para verificar disponibilidade em tempo real.',
       },
       {
-        question: 'A qualidade é menor em sessões de última hora?',
+        question: 'A qualidade das fotos é a mesma em sessões de urgência?',
         answer:
-          'Não. A qualidade técnica — iluminação, direção de poses, tratamento de imagem — é a mesma, independentemente do prazo de agendamento.',
+          'Sim. A urgência afeta apenas o prazo de agendamento — não a qualidade técnica. Iluminação profissional, direção de poses e pós-produção são mantidas no mesmo padrão, independentemente do prazo de antecedência.',
       },
       {
-        question: 'O estúdio móvel ajuda em situações de urgência?',
+        question: 'Em quanto tempo as fotos são entregues em casos urgentes?',
         answer:
-          'Sim. Com o estúdio móvel, a sessão pode ser realizada no próprio escritório do profissional, eliminando o tempo de deslocamento até um estúdio.',
+          'A galeria de pré-seleção é enviada em até 24 horas após a sessão. As fotos finais tratadas são entregues em até 48 horas após a escolha das preferidas. Para situações extremamente urgentes, entrega expressa com prazo reduzido está disponível mediante consulta.',
+      },
+      {
+        question: 'Vocês atendem agências de eventos que precisam de fotógrafo corporativo de última hora?',
+        answer:
+          'Sim. Para agências que precisam de cobertura fotográfica em prazo reduzido — por substituição de fornecedor ou adição de evento ao calendário —, enviamos proposta em até 2 horas após o contato. Atendemos congressos, convenções, workshops e eventos de premiação em São Paulo e região.',
       },
     ],
     relatedServiceSlug: 'retrato-corporativo',
+    relatedSlugs: [
+      'cobertura-eventos-corporativos-sao-paulo',
+      'fotografo-corporativo-vs-fotografo-eventos',
+      'ensaio-corporativo-como-se-preparar',
+    ],
     image: '/images/portfolio/equipe-industrial-sao-paulo-ivan-dias-01.webp',
   },
 ];
