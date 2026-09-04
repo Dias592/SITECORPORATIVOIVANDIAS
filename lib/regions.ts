@@ -210,23 +210,32 @@ export const regions: Region[] = [
       'Para empresas de logística e distribuição próximas às principais rodovias e ao aeroporto, o estúdio móvel é especialmente útil: toda a estrutura de iluminação é montada no local, permitindo fotografar equipes operacionais, gerências e diretoria sem deslocamento até um estúdio.',
       'Indústrias instaladas em Guarulhos também utilizam o serviço para atualizar retratos de diretoria e gerência, especialmente em momentos de expansão, novos sites institucionais ou materiais para parceiros e fornecedores internacionais, que costumam exigir um padrão visual elevado.',
       'Além dos retratos, Ivan Dias também realiza cobertura de eventos corporativos em Guarulhos — congressos, convenções de vendas e feiras relacionadas ao setor logístico e industrial, com entrega de galeria organizada e pronta para uso institucional.',
-      'Empresas de Guarulhos interessadas em retrato corporativo, fotos de equipe ou cobertura de eventos podem solicitar orçamento personalizado pelo WhatsApp, com nota fiscal para pessoa jurídica e resposta em até 24 horas.',
+      'Empresas de Guarulhos com operações de comércio exterior têm uma demanda fotográfica específica: parceiros internacionais e clientes do exterior costumam exigir materiais de apresentação em padrão elevado — site institucional em inglês, catálogos e decks com fotos de equipe e instalações que transmitam credibilidade global. O serviço atende esse perfil com produção planejada para múltiplos usos simultâneos, garantindo que as imagens funcionem tanto para o mercado nacional quanto para a comunicação internacional da empresa.',
+      'Empresas com equipes operacionais de grande porte — centros de distribuição com dezenas ou centenas de colaboradores, operações em múltiplos turnos — enfrentam o desafio de padronizar a imagem de todos sem interromper a operação. O estúdio móvel resolve isso com cronogramas por turno: a estrutura fica montada no local durante o dia e os colaboradores passam em blocos de horário, com 10 a 15 minutos por pessoa, sem impacto na linha de produção ou no ritmo do galpão.',
+      'Para feiras, convenções e congressos em Guarulhos e na Grande São Paulo — incluindo eventos no Expo Center Norte e no complexo do Anhembi — contamos com equipe completa de fotografia de eventos. A cobertura inclui registro do estande da empresa, palestras, momentos de networking, ativações de marca e cerimônias de premiação. A entrega é feita em galeria online organizada e pronta para uso imediato em redes sociais, assessoria de imprensa e relatórios internos.',
+      'O atendimento cobre toda a área industrial de Guarulhos, incluindo o distrito de Cumbica, as margens da Rodovia Presidente Dutra e as zonas de armazenagem próximas ao aeroporto. Para empresas localizadas em condomínios logísticos e parques industriais da região, o agendamento inclui planejamento de acesso para equipamentos e alinhamento com a segurança patrimonial do local — sem burocracia adicional para o cliente.',
+      'Empresas de Guarulhos interessadas em retrato corporativo, fotos de equipe, cobertura de feiras ou eventos podem solicitar orçamento personalizado pelo WhatsApp, com nota fiscal para pessoa jurídica e resposta em até 24 horas.',
     ],
     faqs: [
       {
-        question: 'O fotógrafo atende empresas próximas ao Aeroporto de Guarulhos?',
+        question: 'Vocês atendem empresas no distrito industrial de Cumbica e na Rodovia Dutra?',
         answer:
-          'Sim. O atendimento cobre toda a região de Guarulhos, incluindo empresas próximas ao Aeroporto Internacional e às principais rodovias.',
+          'Sim. O atendimento cobre toda a área industrial de Guarulhos, incluindo Cumbica, as margens da Rodovia Presidente Dutra e os condomínios logísticos próximos ao aeroporto. O estúdio móvel é montado diretamente nas instalações da empresa.',
       },
       {
-        question: 'É possível fotografar equipes operacionais em galpões e centros de distribuição?',
+        question: 'Vocês cobrem feiras e convenções no Expo Center Norte e em Guarulhos?',
         answer:
-          'Sim, com o estúdio móvel é possível montar a estrutura de iluminação diretamente em galpões e centros de distribuição para fotografar equipes operacionais.',
+          'Sim. Contamos com equipe completa de fotografia de eventos para feiras, convenções e congressos — registro de estandes, palestras, networking e ativações de marca. A entrega é em galeria online organizada, pronta para uso imediato.',
       },
       {
-        question: 'Vocês cobrem eventos do setor logístico em Guarulhos?',
+        question: 'Como funciona a sessão para empresas com equipes em múltiplos turnos?',
         answer:
-          'Sim. A cobertura de eventos corporativos inclui congressos, convenções e feiras relacionadas aos setores logístico e industrial da região.',
+          'O estúdio móvel fica montado no local durante o dia inteiro e os colaboradores passam em blocos de horário por turno — cerca de 10 a 15 minutos por pessoa, sem interrupção da operação. O cronograma é definido previamente com o RH da empresa.',
+      },
+      {
+        question: 'Emitem nota fiscal para empresas de comércio exterior sediadas em Guarulhos?',
+        answer:
+          'Sim. Todos os projetos para pessoa jurídica incluem nota fiscal via CNPJ, contrato de prestação de serviços e cessão de direito de uso das imagens — documentação completa para empresas com operações nacionais e internacionais.',
       },
     ],
   },
