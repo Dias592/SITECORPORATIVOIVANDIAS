@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { motion, useMotionValueEvent, useScroll } from 'framer-motion';
 import { DEFAULT_WHATSAPP_MESSAGE, whatsappUrl } from '@/lib/site';
 import { services } from '@/lib/services';
 
@@ -15,14 +14,16 @@ const NAV_LINKS = [
 ];
 
 export default function Navbar() {
-  const { scrollY } = useScroll();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
 
-  useMotionValueEvent(scrollY, 'change', (latest) => {
-    setScrolled(latest > 40);
-  });
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 40);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   useEffect(() => {
     document.body.style.overflow = open ? 'hidden' : '';
@@ -63,11 +64,7 @@ export default function Navbar() {
               Serviços ▾
             </button>
             {servicesOpen && (
-              <motion.ul
-                initial={{ opacity: 0, y: 8 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="absolute left-0 top-full w-64 rounded-xl border border-border-dark bg-bg-card p-2 shadow-xl"
-              >
+              <ul className="anim-fade-up absolute left-0 top-full w-64 rounded-xl border border-border-dark bg-bg-card p-2 shadow-xl">
                 {services.map((service) => (
                   <li key={service.slug}>
                     <Link
@@ -78,7 +75,7 @@ export default function Navbar() {
                     </Link>
                   </li>
                 ))}
-              </motion.ul>
+              </ul>
             )}
           </li>
           {NAV_LINKS.map((link) => (
@@ -119,12 +116,7 @@ export default function Navbar() {
       </nav>
 
       {open && (
-        <motion.div
-          initial={{ opacity: 0, height: 0 }}
-          animate={{ opacity: 1, height: 'auto' }}
-          exit={{ opacity: 0, height: 0 }}
-          className="border-t border-border-dark bg-bg px-6 pb-8 md:hidden"
-        >
+        <div className="anim-fade-down border-t border-border-dark bg-bg px-6 pb-8 md:hidden">
           <ul className="flex flex-col gap-2 pt-4">
             <li>
               <span className="block py-2 font-body text-xs font-semibold uppercase tracking-widest text-cyan-muted">
@@ -166,7 +158,7 @@ export default function Navbar() {
               </a>
             </li>
           </ul>
-        </motion.div>
+        </div>
       )}
     </header>
   );

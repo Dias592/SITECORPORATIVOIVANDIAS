@@ -1,22 +1,21 @@
 'use client';
 
-import { AnimatePresence, motion } from 'framer-motion';
+import { useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 
+// Fade de entrada a cada troca de página, em CSS (sem framer-motion).
+// Na primeira carga não anima, para não atrasar a primeira pintura (LCP).
 export default function PageTransition({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+  const primeira = useRef(true);
+
+  useEffect(() => {
+    primeira.current = false;
+  }, []);
 
   return (
-    <AnimatePresence mode="wait" initial={false}>
-      <motion.div
-        key={pathname}
-        initial={{ opacity: 0, y: 8 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -8 }}
-        transition={{ duration: 0.3, ease: 'easeOut' }}
-      >
-        {children}
-      </motion.div>
-    </AnimatePresence>
+    <div key={pathname} className={primeira.current ? undefined : 'anim-page-in'}>
+      {children}
+    </div>
   );
 }

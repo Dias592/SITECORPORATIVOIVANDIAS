@@ -1,41 +1,34 @@
 'use client';
 
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import PlaceholderPhoto from './PlaceholderPhoto';
 import { DEFAULT_WHATSAPP_MESSAGE, whatsappUrl } from '@/lib/site';
 
-const itemVariants = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] } },
-};
+// Entrada escalonada em CSS (antes framer-motion). O H1 aparece direto:
+// ele costuma ser o LCP no celular e não pode começar invisível.
 
 export default function HeroSection() {
   return (
     <section className="relative grid min-h-[90vh] grid-cols-1 overflow-hidden bg-bg pt-32 md:grid-cols-2 md:pt-28">
-      <motion.div
-        initial="hidden"
-        animate="visible"
-        variants={{ visible: { transition: { staggerChildren: 0.12 } } }}
+      <div
         className="relative z-10 flex flex-col justify-center px-6 pb-16 md:px-16"
       >
-        <motion.span variants={itemVariants} className="eyebrow w-fit">
+        <span className="anim-hero eyebrow w-fit">
           Fotógrafo Corporativo · São Paulo
-        </motion.span>
+        </span>
 
-        <motion.h1
-          variants={itemVariants}
+        <h1
           className="mt-6 font-heading text-[clamp(2.5rem,7vw,5.5rem)] font-extrabold uppercase leading-[1.05] text-white"
         >
           Fotógrafo Corporativo em São Paulo
-        </motion.h1>
+        </h1>
 
-        <motion.p variants={itemVariants} className="mt-6 max-w-lg font-body text-base text-text-muted md:text-lg">
+        <p className="anim-hero anim-hero-2 mt-6 max-w-lg font-body text-base text-text-muted md:text-lg">
           Retratos executivos, fotos para LinkedIn e cobertura de eventos empresariais
           em São Paulo, ABCD Paulista e Grande SP. Direção completa de poses e entrega ágil.
-        </motion.p>
+        </p>
 
-        <motion.div variants={itemVariants} className="mt-10 flex flex-wrap items-center gap-4">
+        <div className="anim-hero anim-hero-3 mt-10 flex flex-wrap items-center gap-4">
           <a
             href={whatsappUrl(DEFAULT_WHATSAPP_MESSAGE)}
             target="_blank"
@@ -47,8 +40,8 @@ export default function HeroSection() {
           <Link href="/portfolio" className="btn-secondary">
             Ver Portfólio
           </Link>
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
 
       <div className="relative min-h-[50vh] md:min-h-0">
         {/* eslint-disable-next-line @next/next/no-img-element */}

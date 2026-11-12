@@ -5,6 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
 import PageTransition from '@/components/PageTransition';
+import AnalyticsAdiado from '@/components/AnalyticsAdiado';
 import SchemaOrg from '@/components/SchemaOrg';
 import { getRootGraphSchema } from '@/lib/schemas';
 import { SITE } from '@/lib/site';
@@ -78,6 +79,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <PageTransition>{children}</PageTransition>
         </main>
         <WhatsAppFloat />
+        <AnalyticsAdiado />
       </body>
     </html>
   );

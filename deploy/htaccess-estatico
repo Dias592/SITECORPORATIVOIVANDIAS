@@ -1,0 +1,64 @@
+# ivandiasfoto.com.br — site estático (Next export, trailingSlash: false)
+# Formato canônico: https://ivandiasfoto.com.br/<pagina> (sem www, sem barra final)
+Options -Indexes
+DirectoryIndex index.html
+DirectorySlash Off
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+
+# http -> https e www -> raiz
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.ivandiasfoto\.com\.br$ [NC]
+RewriteRule ^(.*)$ https://ivandiasfoto.com.br/$1 [R=301,L]
+
+# Pastas internas
+RewriteRule (^|/)\.builds - [F,L]
+
+# Redirect legado (antes no next.config.js)
+RewriteRule ^fotografia-institucional/?$ https://ivandiasfoto.com.br/retrato-corporativo [R=301,L]
+
+# /pagina.html digitado -> /pagina (evita duas URLs para o mesmo conteúdo)
+RewriteCond %{THE_REQUEST} \s/+(.*?)/?index\.html[\s?] [NC]
+RewriteRule ^ https://ivandiasfoto.com.br/%1 [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+([^?\s]+)\.html[\s?] [NC]
+RewriteRule ^ https://ivandiasfoto.com.br/%1 [R=301,L]
+
+# Barra final -> sem barra (mesmo comportamento do Next com trailingSlash: false)
+RewriteCond %{REQUEST_URI} ^/(.+)/$
+RewriteRule ^ https://ivandiasfoto.com.br/%1 [R=301,L]
+
+# /pagina -> pagina.html (também quando existe uma pasta com o mesmo nome, ex.: /blog)
+RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]+$
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+)$ $1.html [L]
+
+# Pasta sem página (.html) não é listada
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !^/$
+RewriteRule ^ - [R=404,L]
+
+AddType text/plain .txt
+AddType application/xml .xml
+AddType image/webp .webp
+AddType image/avif .avif
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  <FilesMatch "\.(html)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.(js|css|woff2)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(webp|avif|jpg|jpeg|png|svg|ico|mp4)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json application/xml image/svg+xml
+</IfModule>

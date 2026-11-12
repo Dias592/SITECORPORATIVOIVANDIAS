@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { SITE } from '@/lib/site';
+import { abrirWhatsApp } from '@/lib/gtag';
 
 const SERVICE_OPTIONS = [
   'Retrato Corporativo',
@@ -32,7 +33,7 @@ export default function ContactForm() {
       className="flex flex-col gap-5"
       onSubmit={(event) => {
         event.preventDefault();
-        window.open(whatsappHref, '_blank', 'noopener,noreferrer');
+        abrirWhatsApp(whatsappHref, 'formulario-orcamento');
       }}
     >
       <div>

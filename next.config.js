@@ -1,37 +1,14 @@
 /** @type {import('next').NextConfig} */
+// Site 100% estático (Hostinger, public_html). Redirects e headers que ficavam aqui
+// agora estão em deploy/htaccess-estatico (www -> raiz, /fotografia-institucional,
+// cabeçalhos de segurança, URLs sem barra final).
 const nextConfig = {
+  output: 'export',
+  trailingSlash: false,
   reactStrictMode: true,
   poweredByHeader: false,
   images: {
     unoptimized: true,
-  },
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        has: [{ type: 'host', value: 'www.ivandiasfoto.com.br' }],
-        destination: 'https://ivandiasfoto.com.br/:path*',
-        permanent: true,
-      },
-      {
-        source: '/fotografia-institucional',
-        destination: '/retrato-corporativo',
-        permanent: true,
-      },
-    ];
-  },
-  async headers() {
-    return [
-      {
-        source: '/(.*)',
-        headers: [
-          { key: 'X-Content-Type-Options', value: 'nosniff' },
-          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
-          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
-          { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
-        ],
-      },
-    ];
   },
 };
 
